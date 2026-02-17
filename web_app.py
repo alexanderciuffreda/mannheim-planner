@@ -110,7 +110,9 @@ def _get_area_id_from_name(name: str) -> Optional[str]:
 
 def _serialize_course(course: dict, restricted_map: dict) -> dict:
     """Serialize a course for the API response."""
-    code = course.get("code") or ""
+    # Support both field naming conventions (module_code/module_name vs code/title)
+    code = course.get("code") or course.get("module_code") or ""
+    title = course.get("title") or course.get("module_name") or ""
     is_ac = _is_additional_course(code)
     
     # Determine area_id
@@ -157,7 +159,7 @@ def _serialize_course(course: dict, restricted_map: dict) -> dict:
     return {
         "id": course.get("id") or f"course-{code}".lower().replace(" ", "-"),
         "code": code,
-        "title": course.get("title") or "",
+        "title": title,
         "ects": ects,
         "professor": course.get("professor") or "",
         "chair": course.get("chair") or "",
