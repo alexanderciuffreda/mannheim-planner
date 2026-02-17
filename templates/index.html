@@ -1,0 +1,373 @@
+{% extends "base.html" %}
+{% block content %}
+<main x-data="plannerApp()" x-init="init()" class="mx-auto max-w-6xl px-4 py-8 md:px-6">
+  
+  <!-- Loading State -->
+  <div x-show="loading" class="flex items-center justify-center py-20">
+    <div class="text-center">
+      <div class="h-8 w-8 animate-spin rounded-full border-4 border-copper-500 border-t-transparent mx-auto"></div>
+      <p class="mt-4 text-stone-500">Katalog wird geladen...</p>
+    </div>
+  </div>
+  
+  <!-- Error State -->
+  <div x-show="error" class="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
+    <p class="text-red-600" x-text="error"></p>
+  </div>
+  
+  <!-- Main Content -->
+  <div x-show="!loading && !error" x-cloak>
+    
+    <!-- Header -->
+    <header class="mb-8">
+      <div class="mb-6 flex items-center justify-between flex-wrap gap-4">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-copper-600">Mannheim Master</p>
+          <h1 class="text-2xl font-bold tracking-tight text-stone-900 md:text-3xl">Data Science Planner</h1>
+          <p class="text-xs text-stone-400 mt-1">Cloud Version - Daten werden lokal im Browser gespeichert</p>
+        </div>
+        
+        <div class="flex items-center gap-2 flex-wrap">
+          <!-- Export Dropdown -->
+          <div class="relative" x-data="{ exportOpen: false }">
+            <button @click="exportOpen = !exportOpen" @click.away="exportOpen = false"
+                    class="flex items-center gap-2 rounded-xl border border-copper-200 bg-copper-50 px-4 py-2 text-sm font-semibold text-copper-700 shadow-sm hover:bg-copper-100 transition-colors">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+              </svg>
+              Export
+              <svg class="h-3 w-3 transition-transform" :class="exportOpen ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            
+            <div x-show="exportOpen" x-transition
+                 class="absolute right-0 z-50 mt-2 w-64 origin-top-right rounded-xl border border-sand-200 bg-white shadow-lg">
+              <div class="p-2">
+                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400">Plan exportieren</p>
+                
+                <button @click="exportPlan('markdown'); exportOpen = false"
+                   class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
+                  <svg class="h-5 w-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  <div>
+                    <div class="font-medium">Markdown</div>
+                    <div class="text-xs text-stone-400">Formatierter Text</div>
+                  </div>
+                </button>
+                
+                <button @click="exportPlan('csv'); exportOpen = false"
+                   class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
+                  <svg class="h-5 w-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                  </svg>
+                  <div>
+                    <div class="font-medium">CSV (Excel)</div>
+                    <div class="text-xs text-stone-400">Tabellenkalkulation</div>
+                  </div>
+                </button>
+                
+                <button @click="exportPlan('json'); exportOpen = false"
+                   class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
+                  <svg class="h-5 w-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                  </svg>
+                  <div>
+                    <div class="font-medium">JSON</div>
+                    <div class="text-xs text-stone-400">Strukturierte Daten</div>
+                  </div>
+                </button>
+                
+                <div class="my-2 border-t border-sand-100"></div>
+                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400">Backup</p>
+                
+                <button @click="exportLocalData(); exportOpen = false"
+                   class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
+                  <svg class="h-5 w-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"/>
+                  </svg>
+                  <div>
+                    <div class="font-medium">Backup speichern</div>
+                    <div class="text-xs text-stone-400">Lokale Daten sichern</div>
+                  </div>
+                </button>
+                
+                <label class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors cursor-pointer">
+                  <svg class="h-5 w-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                  </svg>
+                  <div>
+                    <div class="font-medium">Backup laden</div>
+                    <div class="text-xs text-stone-400">Daten wiederherstellen</div>
+                  </div>
+                  <input type="file" accept=".json" @change="importLocalData($event); exportOpen = false" class="hidden" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- KPI Cards -->
+      <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
+        <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">ECTS geplant</p>
+          <p class="mt-1 text-2xl font-bold tabular-nums text-stone-900" x-text="fmt(summary.planned_ects) + ' / 120'">0 / 120</p>
+          <div class="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-sand-100">
+            <div class="h-full rounded-full bg-copper-600 transition-all duration-500" :style="{ width: Math.min(100, (summary.planned_ects || 0) / 1.2) + '%' }"></div>
+          </div>
+        </div>
+        
+        <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Module</p>
+          <div class="mt-1 flex items-baseline gap-2">
+            <span class="text-2xl font-bold tabular-nums text-stone-900" x-text="plannedStats().total">0</span>
+            <span class="text-sm text-stone-500">geplant</span>
+          </div>
+          <p class="mt-2 text-xs text-emerald-600 font-medium" x-text="plannedStats().completed + ' abgeschlossen'">0 abgeschlossen</p>
+        </div>
+        
+        <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Fortschritt</p>
+          <p class="mt-1 text-2xl font-bold tabular-nums text-stone-900" x-text="Math.round((summary.progress || 0) * 100) + '%'">0%</p>
+          <p class="mt-2 text-xs text-stone-400" x-text="area_progress.filter(a => a.area_id !== 'master-thesis' && a.planned_ects >= a.min_ects).length + ' / ' + area_progress.filter(a => a.area_id !== 'master-thesis').length + ' Bereiche'">0 / 0 Bereiche</p>
+        </div>
+        
+        <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Filter</p>
+          <p class="mt-1 text-lg font-bold text-stone-900 truncate" x-text="filters.areas.length ? area_progress.find(a => a.area_id === filters.areas[0])?.area_name || 'Filter aktiv' : 'Alle Bereiche'">Alle Bereiche</p>
+          <button x-show="filters.areas.length" @click="clearAreas()" class="mt-2 text-xs font-medium text-copper-600 hover:text-copper-700 hover:underline">Zuruecksetzen</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Progress Section -->
+    <section class="mb-8 rounded-2xl border border-sand-200 bg-white p-5 shadow-sm">
+      <div class="mb-4">
+        <h2 class="text-lg font-bold text-stone-900">Fortschritt nach Bereich</h2>
+        <p class="text-sm text-stone-500">Klicke auf einen Bereich um zu filtern</p>
+      </div>
+      
+      <div id="areaDashboard" class="space-y-3"></div>
+      
+      <!-- Legend -->
+      <div class="mt-4 pt-4 border-t border-sand-100 flex flex-wrap gap-x-4 gap-y-1">
+        <template x-for="row in area_progress.filter(r => r.area_id !== 'master-thesis')" :key="row.area_id + '-legend'">
+          <button @click="setAreaOnly(row.area_id)" class="flex items-center gap-1.5 text-xs text-stone-600 hover:text-stone-900 transition-colors"
+                  :class="filters.areas.includes(row.area_id) ? 'font-bold' : ''">
+            <span class="h-2.5 w-2.5 rounded-full" :style="{ backgroundColor: colorForArea(row.area_id) }"></span>
+            <span x-text="row.area_name"></span>
+          </button>
+        </template>
+      </div>
+    </section>
+
+    <!-- Module Section -->
+    <section class="rounded-2xl border border-sand-200 bg-white shadow-sm">
+      <!-- Header -->
+      <div class="flex flex-col gap-4 border-b border-sand-100 p-5 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h2 class="text-lg font-bold text-stone-900">Module</h2>
+          <p class="text-sm text-stone-500" x-text="`${plannedStats().total} geplant, ${catalog.length - plannedStats().total} im Katalog`"></p>
+        </div>
+        
+        <div class="flex flex-wrap items-center gap-3">
+          <!-- Search -->
+          <div class="relative">
+            <input x-model="filters.q" 
+                   class="w-full rounded-lg border border-sand-200 bg-sand-50 py-2 pl-9 pr-4 text-sm placeholder:text-stone-400 focus:border-copper-500 focus:outline-none focus:ring-2 focus:ring-copper-500/20 sm:w-56" 
+                   placeholder="Module suchen..." />
+            <svg class="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+          
+          <!-- Sort Buttons -->
+          <div class="flex items-center rounded-lg border border-sand-200 bg-sand-50 p-1">
+            <button @click="toggleSort('title')" 
+                    class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all" 
+                    :class="sort.by==='title' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'">
+              Titel
+            </button>
+            <button @click="toggleSort('ects')" 
+                    class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all" 
+                    :class="sort.by==='ects' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'">
+              ECTS
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-5">
+        <!-- ========== PLANNED SECTION ========== -->
+        <div x-show="courses.some(c => c.status)" class="mb-8">
+          <div class="mb-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-stone-500">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-xs text-emerald-700">&#10003;</span>
+                Geplant
+              </span>
+              <span class="text-xs tabular-nums text-stone-400" x-text="`${fmt(plannedStats().totalEcts)} ECTS`"></span>
+            </div>
+            
+            <button @click="removeAllPlanned()" 
+                    class="flex items-center gap-1.5 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-xs font-semibold text-red-600 transition-colors hover:bg-red-100">
+              <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+              </svg>
+              Alle entfernen
+            </button>
+          </div>
+
+          <!-- Planned Courses by Area -->
+          <div class="space-y-4">
+            <template x-for="group in groupByArea(courses.filter(c => c.status))" :key="'planned-' + group.area_id">
+              <div class="rounded-xl border border-sand-200 overflow-hidden">
+                <button @click="toggleAreaCollapse('planned', group.area_id)" 
+                        class="flex w-full items-center justify-between bg-sand-50 px-4 py-3 text-left transition-colors hover:bg-sand-100">
+                  <div class="flex items-center gap-3">
+                    <span class="h-3 w-3 rounded-full" :style="{ backgroundColor: colorForArea(group.area_id) }"></span>
+                    <span class="font-semibold text-stone-800" x-text="group.area_name"></span>
+                    <span class="rounded-full bg-white px-2 py-0.5 text-xs font-medium text-stone-500 shadow-sm" x-text="`${group.courses.length} Module`"></span>
+                  </div>
+                  <svg class="h-5 w-5 text-stone-400 transition-transform" 
+                       :class="isAreaCollapsed('planned', group.area_id) ? '' : 'rotate-180'" 
+                       fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </button>
+                
+                <div x-show="!isAreaCollapsed('planned', group.area_id)" class="p-3">
+                  <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                    <template x-for="course in group.courses" :key="course.id + '-' + (course.selection_id || 'main')">
+                      <div class="group relative rounded-xl border-2 p-4 transition-all cursor-pointer"
+                           :class="course.completed ? 'border-emerald-300 bg-emerald-50' : 'border-sand-200 bg-white hover:border-copper-300'"
+                           @click="toggleCompleted(course.id, course.selection_id)">
+                        
+                        <!-- Completed Overlay -->
+                        <div x-show="course.completed" class="absolute inset-0 flex items-center justify-center rounded-xl bg-emerald-500/10">
+                          <span class="text-4xl text-emerald-500">&#10003;</span>
+                        </div>
+                        
+                        <div class="flex items-start justify-between gap-2">
+                          <div class="min-w-0 flex-1">
+                            <p class="text-xs font-medium text-copper-600" x-text="course.code || 'Modul'"></p>
+                            <h3 class="mt-1 font-semibold text-stone-900 leading-tight line-clamp-2" x-text="course.title"></h3>
+                            <p class="mt-1 text-xs text-stone-500 truncate" x-text="course.professor || '-'"></p>
+                          </div>
+                          <div class="flex flex-col items-end gap-1">
+                            <span class="rounded-full px-2.5 py-1 text-xs font-bold tabular-nums"
+                                  :class="course.completed ? 'bg-emerald-100 text-emerald-700' : 'bg-copper-100 text-copper-700'"
+                                  x-text="course.ects + ' ECTS'"></span>
+                            <button @click.stop="removeCourse(course.id, course.selection_id)" 
+                                    class="rounded p-1 text-stone-400 hover:bg-red-50 hover:text-red-500 transition-colors">
+                              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+
+        <!-- ========== CATALOG SECTION ========== -->
+        <div>
+          <div class="mb-4 flex items-center gap-3">
+            <span class="text-sm font-bold uppercase tracking-wide text-stone-500">Katalog</span>
+            <span class="text-xs text-stone-400" x-text="`${courses.filter(c => !c.status && !c.restricted).length} Module verfuegbar`"></span>
+          </div>
+
+          <!-- Catalog Courses by Area -->
+          <div class="space-y-4">
+            <template x-for="group in groupByArea(courses.filter(c => !c.status && !c.restricted))" :key="'catalog-' + group.area_id">
+              <div class="rounded-xl border border-sand-200 overflow-hidden">
+                <button @click="toggleAreaCollapse('catalog', group.area_id)" 
+                        class="flex w-full items-center justify-between bg-sand-50 px-4 py-3 text-left transition-colors hover:bg-sand-100">
+                  <div class="flex items-center gap-3">
+                    <span class="h-3 w-3 rounded-full" :style="{ backgroundColor: colorForArea(group.area_id) }"></span>
+                    <span class="font-semibold text-stone-800" x-text="group.area_name"></span>
+                    <span class="rounded-full bg-white px-2 py-0.5 text-xs font-medium text-stone-500 shadow-sm" x-text="`${group.courses.length} Module`"></span>
+                  </div>
+                  <svg class="h-5 w-5 text-stone-400 transition-transform" 
+                       :class="isAreaCollapsed('catalog', group.area_id) ? '' : 'rotate-180'" 
+                       fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </button>
+                
+                <div x-show="!isAreaCollapsed('catalog', group.area_id)" class="border-t border-sand-100 bg-sand-50/30 p-3">
+                  <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                    <template x-for="course in group.courses" :key="'cat-' + course.id">
+                      <div class="group rounded-xl border border-sand-200 bg-white p-4 transition-all hover:border-copper-300 hover:shadow-md">
+                        <div class="flex items-start justify-between gap-2">
+                          <div class="min-w-0 flex-1">
+                            <div class="flex items-center gap-2">
+                              <p class="text-xs font-medium text-copper-600" x-text="course.code || 'Modul'"></p>
+                              <span x-show="course.is_additional_course" class="rounded bg-amber-100 px-1.5 py-0.5 text-xs font-medium text-amber-700">Variabel</span>
+                            </div>
+                            <h3 class="mt-1 font-semibold text-stone-900 leading-tight line-clamp-2" x-text="course.title"></h3>
+                            <p class="mt-1 text-xs text-stone-500 truncate" x-text="course.professor || '-'"></p>
+                            
+                            <!-- AC Module: ECTS Info -->
+                            <p x-show="course.is_additional_course && course.remaining_ects !== undefined" 
+                               class="mt-2 text-xs text-amber-600" 
+                               x-text="`${course.remaining_ects} von ${course.max_ects} ECTS verfuegbar`"></p>
+                          </div>
+                          <span class="rounded-full bg-sand-100 px-2.5 py-1 text-xs font-bold tabular-nums text-stone-600" 
+                                x-text="(course.is_additional_course ? 'max. ' : '') + course.ects + ' ECTS'"></span>
+                        </div>
+                        
+                        <!-- Action Button -->
+                        <div class="mt-3 pt-3 border-t border-sand-100">
+                          <!-- Regular Course -->
+                          <button x-show="!course.is_additional_course"
+                                  @click="planCourse(course.id)" 
+                                  class="w-full rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600">
+                            Hinzufuegen
+                          </button>
+                          
+                          <!-- AC Module -->
+                          <div x-show="course.is_additional_course" class="flex gap-2">
+                            <input type="number" min="1" :max="course.remaining_ects || 18" 
+                                   x-model="additionalCourseEcts[course.id]"
+                                   placeholder="ECTS" 
+                                   class="w-20 rounded-lg border border-sand-200 px-3 py-2 text-sm text-center" />
+                            <button @click="addAdditionalCourse(course.id)" 
+                                    class="flex-1 rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600">
+                              Hinzufuegen
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+          
+          <!-- Empty State -->
+          <div x-show="!courses.filter(c => !c.status && !c.restricted).length" class="py-12 text-center">
+            <p class="text-stone-500">Keine Module gefunden.</p>
+            <button x-show="filters.q || filters.areas.length" @click="filters.q = ''; clearAreas()" class="mt-2 text-sm font-medium text-copper-600 hover:underline">Filter zuruecksetzen</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="mt-8 text-center text-xs text-stone-400">
+      <p>Mannheim DS Planner - Cloud Version</p>
+      <p class="mt-1">Daten werden lokal im Browser gespeichert (LocalStorage)</p>
+    </footer>
+    
+  </div>
+</main>
+{% endblock %}

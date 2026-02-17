@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mannheim DS Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sand: {
+                50: "#faf6f1",
+                100: "#f5ede3",
+                200: "#ead7c3",
+                300: "#d8b18a",
+              },
+              copper: {
+                500: "#b5673f",
+                600: "#9f4f2a",
+                700: "#8a3f1f",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="/static/js/app.js"></script>
+    <link rel="stylesheet" href="/static/css/editorial.css" />
+  </head>
+  <body class="min-h-screen bg-sand-50">
+    {% block content %}{% endblock %}
+  </body>
+</html>

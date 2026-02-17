@@ -1,0 +1,40 @@
+{
+  "excluded_courses_for_mmds_po_2024": [
+    {
+      "module_code": "CS 460",
+      "module_name": "Databases for Data Scientists",
+      "reason": "Expliziter Ausschluss: Das Modul ist im Detailtext gekennzeichnet als 'Fundamental (MMDS for students who started before 2024)'. Der Bereich 'Range of application' beschränkt die Teilnahme auf 'MMSDS, MMDS (for students who started before HWS 2024)'. In der PO 2024 wurde es im Bereich Fundamentals durch CS 560 ersetzt.",
+      "source_indices": "43,46,444"
+    },
+    {
+      "module_code": "DS 100",
+      "module_name": "Statistics for Data Scientists",
+      "reason": "Expliziter Ausschluss: Im Detailtext unter 'Range of application' wird ausschließlich der Studiengang 'MMSDS' (Mannheim Master in Social Data Science) aufgeführt. Zudem ist der Kurs nicht Teil der fixierten 'Data Science Fundamentals'-Liste der PO 2024.",
+      "source_indices": "51,444"
+    },
+    {
+      "module_code": "DS 202",
+      "module_name": "Seminar and Lab on Machine Learning and Causal Inference",
+      "reason": "Expliziter Ausschluss: Im Detailtext unter 'Range of application' wird ausschließlich der Studiengang 'MMSDS' aufgeführt (im Gegensatz zum Schwestermodul DS 201, das für beide offen ist).",
+      "source_indices": "144"
+    },
+    {
+      "module_code": "IS 557",
+      "module_name": "Scientific Programming with Python",
+      "reason": "Struktureller Ausschluss: In der PO 2020 war dies ein Wahl-Fundamental-Kurs. Die PO 2024 definiert jedoch eine feste Liste von 4 Pflichtmodulen für den Bereich Fundamentals (CS 560, CS 652, IE 500, IE 675b) ohne Wahlmöglichkeit. Da IS 557 in keinem anderen Wahlbereich der PO 2024 (Data Management, Data Analytics Methods) gelistet ist, ist er nicht anrechenbar.",
+      "source_indices": "42,444,445,446"
+    },
+    {
+      "module_code": "IS 622",
+      "module_name": "Network Science",
+      "reason": "Konditionaler Ausschluss: Dieser Kurs darf nicht belegt werden, wenn die Prüfung im Modul 'IE 676' bereits absolviert wurde (Wechselseitiger Ausschluss).",
+      "source_indices": "130"
+    },
+    {
+      "module_code": "MAB 519",
+      "module_name": "Reinforcement Learning",
+      "reason": "Konditionaler Ausschluss: Dieser Kurs darf nicht belegt werden, wenn die Prüfung im Modul 'IE 695' bereits absolviert wurde (Wechselseitiger Ausschluss).",
+      "source_indices": "130"
+    }
+  ]
+}

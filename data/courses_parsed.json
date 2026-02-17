@@ -1,0 +1,780 @@
+{
+  "courses": [
+    {
+      "module_code": null,
+      "module_name": "Unwrapping the mind: knowledge, cognition, and AI",
+      "ects": 5,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "3,452"
+    },
+    {
+      "module_code": "IE 685",
+      "module_name": "Large Language Models and Agents",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "3,14,452"
+    },
+    {
+      "module_code": "IE 692",
+      "module_name": "Advanced Process Mining",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "3,20,452"
+    },
+    {
+      "module_code": "IS 617",
+      "module_name": "Large Language Models for the Economic and Social Sciences",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "3,452"
+    },
+    {
+      "module_code": "IS 618",
+      "module_name": "Social Media Data Analysis",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "3,453"
+    },
+    {
+      "module_code": "CS 733",
+      "module_name": "Advanced Topics in Process Mining",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "3,26,453"
+    },
+    {
+      "module_code": "CS 734",
+      "module_name": "Green Software Engineering",
+      "ects": 4,
+      "semester": ["FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "3,32,453"
+    },
+    {
+      "module_code": "CS 460",
+      "module_name": "Databases for Data Scientists",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Fundamentals"],
+      "source_indices": "42,46,453"
+    },
+    {
+      "module_code": "IS 557",
+      "module_name": "Scientific Programming with Python",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Fundamentals"],
+      "source_indices": "42,454"
+    },
+    {
+      "module_code": "DS 100",
+      "module_name": "Statistics for Data Scientists",
+      "ects": 9,
+      "semester": ["HWS"],
+      "assigned_areas": ["Fundamentals"],
+      "source_indices": "42,51,454"
+    },
+    {
+      "module_code": "AC 651",
+      "module_name": "Additional Course – Data Management",
+      "ects": "Max. 18",
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,56,454"
+    },
+    {
+      "module_code": "CS 500",
+      "module_name": "Advanced Software Engineering",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,59,455"
+    },
+    {
+      "module_code": "CS 550",
+      "module_name": "Algorithmics",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,64,455"
+    },
+    {
+      "module_code": "CS 560",
+      "module_name": "Large Scale Data Management",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management (PO 2020)", "Fundamentals (PO 2024)"],
+      "source_indices": "52,68,444,455"
+    },
+    {
+      "module_code": "CS 600",
+      "module_name": "Model-driven Development",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,72,455"
+    },
+    {
+      "module_code": "CS 605 / CS 606",
+      "module_name": "Foundations of Artificial Intelligence: Search and Problem Solving",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,76,456"
+    },
+    {
+      "module_code": "CS 630",
+      "module_name": "Generative Software Engineering",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,81,456"
+    },
+    {
+      "module_code": "CS 651",
+      "module_name": "Cryptography II",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,86,456"
+    },
+    {
+      "module_code": "CS 655",
+      "module_name": "Cryptography",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,90,457"
+    },
+    {
+      "module_code": "CS 664",
+      "module_name": "Blockchain Security",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,95,457"
+    },
+    {
+      "module_code": "IE 650",
+      "module_name": "Knowledge Graphs",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,101,457"
+    },
+    {
+      "module_code": "IE 663",
+      "module_name": "Information Retrieval and Web Search",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "52,105,457"
+    },
+    {
+      "module_code": "IE 670",
+      "module_name": "Web Data Integration",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,110,458"
+    },
+    {
+      "module_code": "IE 683",
+      "module_name": "Web Data Integration Project",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,114,458"
+    },
+    {
+      "module_code": "IE 691",
+      "module_name": "Information Retrieval Project",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,118,458"
+    },
+    {
+      "module_code": "IS 540",
+      "module_name": "Management of Enterprise Systems",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,458"
+    },
+    {
+      "module_code": "IS 556",
+      "module_name": "Public Blockchains",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,459"
+    },
+    {
+      "module_code": "DS 200",
+      "module_name": "Sampling and Data",
+      "ects": 9,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,121,459"
+    },
+    {
+      "module_code": "MAC 570",
+      "module_name": "Reinforcement Learning - Coding",
+      "ects": 5,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Data Management"],
+      "source_indices": "53,123,459"
+    },
+    {
+      "module_code": "AC 652",
+      "module_name": "Additional Course – Data Analytics Methods",
+      "ects": "Max. 18",
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,132,459"
+    },
+    {
+      "module_code": "DA 110",
+      "module_name": "Computational Analysis of Communication",
+      "ects": 6,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,136,460"
+    },
+    {
+      "module_code": "DS 201",
+      "module_name": "Machine Learning and Causal Inference",
+      "ects": 9,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,140,460"
+    },
+    {
+      "module_code": "DS 202",
+      "module_name": "Seminar and Lab on Machine Learning and Causal Inference",
+      "ects": 9,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,144,460"
+    },
+    {
+      "module_code": "IE 500",
+      "module_name": "Data Mining",
+      "ects": 6,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Data Analytics Methods (PO 2020)", "Fundamentals (PO 2024)"],
+      "source_indices": "124,149,445,461"
+    },
+    {
+      "module_code": "IE 560",
+      "module_name": "Foundations of Artificial Intelligence – Reasoning and Decision Making",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,154,461"
+    },
+    {
+      "module_code": "IE 671",
+      "module_name": "Web Mining",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,158,461"
+    },
+    {
+      "module_code": "IE 675b",
+      "module_name": "Machine Learning",
+      "ects": 9,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods (PO 2020)", "Fundamentals (PO 2024)"],
+      "source_indices": "124,161,445,461"
+    },
+    {
+      "module_code": "IE 678",
+      "module_name": "Deep Learning",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "124,166,462"
+    },
+    {
+      "module_code": "IE 684",
+      "module_name": "Web Mining Project",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,170,462"
+    },
+    {
+      "module_code": "IE 686",
+      "module_name": "Large Language Models and Agents (Project)",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,175,462"
+    },
+    {
+      "module_code": "IE 694",
+      "module_name": "Artificial Intelligence Applications in Industry",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,179,463"
+    },
+    {
+      "module_code": "IE 695",
+      "module_name": "Reinforcement Learning",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,182,463"
+    },
+    {
+      "module_code": "IE 696",
+      "module_name": "Advanced Methods in Text Analytics",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,186,463"
+    },
+    {
+      "module_code": "IE 698",
+      "module_name": "Foundations and Applications of Digital Health Technologies",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,190,463"
+    },
+    {
+      "module_code": "IE 699",
+      "module_name": "Co-creating digital health applications with design methodology",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,195,464"
+    },
+    {
+      "module_code": "IS 515",
+      "module_name": "Process Management and Analytics",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,464"
+    },
+    {
+      "module_code": "IS 616",
+      "module_name": "Large Scale Data Analysis and Visualization",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "125,126,464"
+    },
+    {
+      "module_code": "IS 622",
+      "module_name": "Network Science",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "126,465"
+    },
+    {
+      "module_code": "IS 661",
+      "module_name": "Text Analytics",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "126,465"
+    },
+    {
+      "module_code": "MAA 519",
+      "module_name": "Stochastic Calculus",
+      "ects": 5,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "126,465"
+    },
+    {
+      "module_code": "MAB 504",
+      "module_name": "Mathematics and Information",
+      "ects": 8,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "126,465"
+    },
+    {
+      "module_code": "MAB 508",
+      "module_name": "Algebraische Statistik",
+      "ects": 8,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,466"
+    },
+    {
+      "module_code": "MAB 519",
+      "module_name": "Reinforcement Learning",
+      "ects": 10,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,466"
+    },
+    {
+      "module_code": "MAB 520",
+      "module_name": "Reinforcement Learning II",
+      "ects": 5,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,466"
+    },
+    {
+      "module_code": "MAC 404",
+      "module_name": "Optimierung",
+      "ects": 8,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,467"
+    },
+    {
+      "module_code": "MAC 502",
+      "module_name": "Computational Finance",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,467"
+    },
+    {
+      "module_code": "MAC 507",
+      "module_name": "Nichtlineare Optimierung",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,467"
+    },
+    {
+      "module_code": "MAC 527",
+      "module_name": "Markov Processes",
+      "ects": 4,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,467"
+    },
+    {
+      "module_code": "MKT 511",
+      "module_name": "Marketing Analytics",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,467"
+    },
+    {
+      "module_code": "MKT 545",
+      "module_name": "Customers, Markets and Firm Strategy",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,468"
+    },
+    {
+      "module_code": null,
+      "module_name": "Lecture Cross Sectional Data Analysis",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,468"
+    },
+    {
+      "module_code": null,
+      "module_name": "Tutorial Cross Sectional Data Analysis",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,468"
+    },
+    {
+      "module_code": null,
+      "module_name": "Lecture Advanced Quantitative Methods",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,469"
+    },
+    {
+      "module_code": null,
+      "module_name": "Tutorial Advanced Quantitative Methods",
+      "ects": 2,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,469"
+    },
+    {
+      "module_code": null,
+      "module_name": "Lecture Longitudinal Data Analysis",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,469"
+    },
+    {
+      "module_code": null,
+      "module_name": "Tutorial Longitudinal Data Analysis",
+      "ects": 3,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,469"
+    },
+    {
+      "module_code": null,
+      "module_name": "Lecture Research Design",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,470"
+    },
+    {
+      "module_code": null,
+      "module_name": "Tutorial Research Design",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,470"
+    },
+    {
+      "module_code": null,
+      "module_name": "Empirische Methoden der Politikwissenschaft",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,470"
+    },
+    {
+      "module_code": "CS 646",
+      "module_name": "Higher Level Computer Vision",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "127,200,470"
+    },
+    {
+      "module_code": "CS 647",
+      "module_name": "Image Processing",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "128,204,471"
+    },
+    {
+      "module_code": "CS 668",
+      "module_name": "Generative Computer Vision Models",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Data Analytics Methods"],
+      "source_indices": "128,207,471"
+    },
+    {
+      "module_code": "CS 652",
+      "module_name": "Data Security and Privacy",
+      "ects": 6,
+      "semester": ["FSS"],
+      "assigned_areas": ["Responsible Data Science (PO 2020)", "Fundamentals (PO 2024)"],
+      "source_indices": "208,212,445,471"
+    },
+    {
+      "module_code": null,
+      "module_name": "Legal and Ethical Aspects of Privacy",
+      "ects": 3,
+      "semester": ["HWS"],
+      "assigned_areas": ["Responsible Data Science"],
+      "source_indices": "208,217,448,472"
+    },
+    {
+      "module_code": "CS 718",
+      "module_name": "AI and Data Science in Fiction and Society",
+      "ects": 4,
+      "semester": ["HWS"],
+      "assigned_areas": ["Responsible Data Science"],
+      "source_indices": "208,221,448,472"
+    },
+    {
+      "module_code": "AC 654",
+      "module_name": "Additional Course – Responsible Data Science",
+      "ects": "Max. 18",
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Responsible Data Science"],
+      "source_indices": "208,223,472"
+    },
+    {
+      "module_code": "DS 203",
+      "module_name": "Responsible AI: Conceptual Foundations, Methods and Applications",
+      "ects": 6,
+      "semester": ["HWS"],
+      "assigned_areas": ["Responsible Data Science"],
+      "source_indices": "208,229,473"
+    },
+    {
+      "module_code": "AC 653",
+      "module_name": "Additional Course – Projects and Seminars",
+      "ects": "Max. 18",
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,232,473"
+    },
+    {
+      "module_code": "TP 500",
+      "module_name": "Team Project",
+      "ects": 12,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,239,450,473"
+    },
+    {
+      "module_code": "IP 500",
+      "module_name": "Individual Project",
+      "ects": 8,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,241,450,473"
+    },
+    {
+      "module_code": "SQ 500",
+      "module_name": "Scientific Research",
+      "ects": 2,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,245,450,474"
+    },
+    {
+      "module_code": "CS 701",
+      "module_name": "Selected Topics in Algorithmics and Cryptography",
+      "ects": 4,
+      "semester": ["FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,250,474"
+    },
+    {
+      "module_code": "CS 704",
+      "module_name": "Master Seminar Artificial Intelligence",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,254,474"
+    },
+    {
+      "module_code": "CS 707",
+      "module_name": "Data Analytics Seminar",
+      "ects": 4,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,259,475"
+    },
+    {
+      "module_code": "CS 708",
+      "module_name": "Seminar Software Engineering",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,262,475"
+    },
+    {
+      "module_code": "CS 709",
+      "module_name": "Seminar Text Analytics",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,267,475"
+    },
+    {
+      "module_code": "CS 710",
+      "module_name": "Selected Topics in Data Science",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,271,475"
+    },
+    {
+      "module_code": "CS 715",
+      "module_name": "Solving Complex Tasks using Large Language Models",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,275,476"
+    },
+    {
+      "module_code": "CS 716",
+      "module_name": "IT-Security",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,279,476"
+    },
+    {
+      "module_code": "CS 717",
+      "module_name": "Master Seminar on Computer Vision",
+      "ects": 4,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,282,476"
+    },
+    {
+      "module_code": "CS 720",
+      "module_name": "Uncertainty Estimation",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,286,477"
+    },
+    {
+      "module_code": "CS 721",
+      "module_name": "Seminar Data-Science I",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,290,477"
+    },
+    {
+      "module_code": "IE 704",
+      "module_name": "Seminar AI Systems Engineering",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,294,450,477"
+    },
+    {
+      "module_code": "IS 752",
+      "module_name": "Seminar on Process and Management Analytics",
+      "ects": 4,
+      "semester": ["FSS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,477"
+    },
+    {
+      "module_code": "IS 723",
+      "module_name": "Seminar Data-Science II (Empirical Studies)",
+      "ects": 4,
+      "semester": ["HWS"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "230,478"
+    },
+    {
+      "module_code": "MAS 515",
+      "module_name": "Seminar Mathematische Optimierung",
+      "ects": 4,
+      "semester": ["Irregular"],
+      "assigned_areas": ["Projects and Seminars"],
+      "source_indices": "231,297,478"
+    },
+    {
+      "module_code": null,
+      "module_name": "Master Thesis",
+      "ects": 30,
+      "semester": ["HWS", "FSS"],
+      "assigned_areas": ["Master Thesis"],
+      "source_indices": "298,301,451,478"
+    }
+  ]
+}
