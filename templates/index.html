@@ -6,7 +6,7 @@
   <div x-show="loading" class="flex items-center justify-center py-20">
     <div class="text-center">
       <div class="h-8 w-8 animate-spin rounded-full border-4 border-copper-500 border-t-transparent mx-auto"></div>
-      <p class="mt-4 text-stone-500">Katalog wird geladen...</p>
+      <p class="mt-4 text-stone-500" x-text="t('loading_catalog')"></p>
     </div>
   </div>
   
@@ -24,10 +24,19 @@
         <div>
           <p class="text-xs font-semibold uppercase tracking-[0.2em] text-copper-600">Mannheim Master</p>
           <h1 class="text-2xl font-bold tracking-tight text-stone-900 md:text-3xl">Data Science Planner</h1>
-          <p class="text-xs text-stone-400 mt-1">Cloud Version - Daten werden lokal im Browser gespeichert</p>
+          <p class="text-xs text-stone-400 mt-1" x-text="t('cloud_version')"></p>
         </div>
         
         <div class="flex items-center gap-2 flex-wrap">
+          <!-- Language Toggle -->
+          <button @click="toggleLang()" 
+                  class="flex items-center gap-1.5 rounded-xl border border-sand-200 bg-white px-3 py-2 text-sm font-semibold text-stone-600 shadow-sm hover:bg-sand-50 transition-colors">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
+            </svg>
+            <span x-text="lang.toUpperCase()">DE</span>
+          </button>
+          
           <!-- Export Dropdown -->
           <div class="relative" x-data="{ exportOpen: false }">
             <button @click="exportOpen = !exportOpen" @click.away="exportOpen = false"
@@ -44,7 +53,7 @@
             <div x-show="exportOpen" x-transition
                  class="absolute right-0 z-50 mt-2 w-64 origin-top-right rounded-xl border border-sand-200 bg-white shadow-lg">
               <div class="p-2">
-                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400">Plan exportieren</p>
+                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400" x-text="t('export_plan')"></p>
                 
                 <button @click="exportPlan('markdown'); exportOpen = false"
                    class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
@@ -53,7 +62,7 @@
                   </svg>
                   <div>
                     <div class="font-medium">Markdown</div>
-                    <div class="text-xs text-stone-400">Formatierter Text</div>
+                    <div class="text-xs text-stone-400" x-text="t('formatted_text')"></div>
                   </div>
                 </button>
                 
@@ -64,7 +73,7 @@
                   </svg>
                   <div>
                     <div class="font-medium">CSV (Excel)</div>
-                    <div class="text-xs text-stone-400">Tabellenkalkulation</div>
+                    <div class="text-xs text-stone-400" x-text="t('spreadsheet')"></div>
                   </div>
                 </button>
                 
@@ -75,12 +84,12 @@
                   </svg>
                   <div>
                     <div class="font-medium">JSON</div>
-                    <div class="text-xs text-stone-400">Strukturierte Daten</div>
+                    <div class="text-xs text-stone-400" x-text="t('structured_data')"></div>
                   </div>
                 </button>
                 
                 <div class="my-2 border-t border-sand-100"></div>
-                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400">Backup</p>
+                <p class="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-stone-400" x-text="t('backup')"></p>
                 
                 <button @click="exportLocalData(); exportOpen = false"
                    class="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-stone-700 hover:bg-sand-50 transition-colors text-left">
@@ -88,8 +97,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"/>
                   </svg>
                   <div>
-                    <div class="font-medium">Backup speichern</div>
-                    <div class="text-xs text-stone-400">Lokale Daten sichern</div>
+                    <div class="font-medium" x-text="t('save_backup')"></div>
+                    <div class="text-xs text-stone-400" x-text="t('save_local_data')"></div>
                   </div>
                 </button>
                 
@@ -98,8 +107,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
                   </svg>
                   <div>
-                    <div class="font-medium">Backup laden</div>
-                    <div class="text-xs text-stone-400">Daten wiederherstellen</div>
+                    <div class="font-medium" x-text="t('load_backup')"></div>
+                    <div class="text-xs text-stone-400" x-text="t('restore_data')"></div>
                   </div>
                   <input type="file" accept=".json" @change="importLocalData($event); exportOpen = false" class="hidden" />
                 </label>
@@ -112,7 +121,7 @@
       <!-- KPI Cards -->
       <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
         <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
-          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">ECTS geplant</p>
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500" x-text="t('ects_planned')"></p>
           <p class="mt-1 text-2xl font-bold tabular-nums text-stone-900" x-text="fmt(summary.planned_ects) + ' / 120'">0 / 120</p>
           <div class="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-sand-100">
             <div class="h-full rounded-full bg-copper-600 transition-all duration-500" :style="{ width: Math.min(100, (summary.planned_ects || 0) / 1.2) + '%' }"></div>
@@ -120,24 +129,24 @@
         </div>
         
         <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
-          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Module</p>
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500" x-text="t('modules')"></p>
           <div class="mt-1 flex items-baseline gap-2">
             <span class="text-2xl font-bold tabular-nums text-stone-900" x-text="plannedStats().total">0</span>
-            <span class="text-sm text-stone-500">geplant</span>
+            <span class="text-sm text-stone-500" x-text="t('planned')"></span>
           </div>
-          <p class="mt-2 text-xs text-emerald-600 font-medium" x-text="plannedStats().completed + ' abgeschlossen'">0 abgeschlossen</p>
+          <p class="mt-2 text-xs text-emerald-600 font-medium" x-text="plannedStats().completed + ' ' + t('completed')"></p>
         </div>
         
         <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
-          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Fortschritt</p>
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500" x-text="t('progress')"></p>
           <p class="mt-1 text-2xl font-bold tabular-nums text-stone-900" x-text="Math.round((summary.progress || 0) * 100) + '%'">0%</p>
-          <p class="mt-2 text-xs text-stone-400" x-text="area_progress.filter(a => a.area_id !== 'master-thesis' && a.planned_ects >= a.min_ects).length + ' / ' + area_progress.filter(a => a.area_id !== 'master-thesis').length + ' Bereiche'">0 / 0 Bereiche</p>
+          <p class="mt-2 text-xs text-stone-400" x-text="area_progress.filter(a => a.area_id !== 'master-thesis' && a.planned_ects >= a.min_ects).length + ' / ' + area_progress.filter(a => a.area_id !== 'master-thesis').length + ' ' + t('areas')"></p>
         </div>
         
         <div class="rounded-2xl border border-sand-200 bg-white p-4 shadow-sm">
-          <p class="text-xs font-medium uppercase tracking-wide text-stone-500">Filter</p>
-          <p class="mt-1 text-lg font-bold text-stone-900 truncate" x-text="filters.areas.length ? area_progress.find(a => a.area_id === filters.areas[0])?.area_name || 'Filter aktiv' : 'Alle Bereiche'">Alle Bereiche</p>
-          <button x-show="filters.areas.length" @click="clearAreas()" class="mt-2 text-xs font-medium text-copper-600 hover:text-copper-700 hover:underline">Zuruecksetzen</button>
+          <p class="text-xs font-medium uppercase tracking-wide text-stone-500" x-text="t('filter')"></p>
+          <p class="mt-1 text-lg font-bold text-stone-900 truncate" x-text="filters.areas.length ? area_progress.find(a => a.area_id === filters.areas[0])?.area_name || t('filter_active') : t('all_areas')"></p>
+          <button x-show="filters.areas.length" @click="clearAreas()" class="mt-2 text-xs font-medium text-copper-600 hover:text-copper-700 hover:underline" x-text="t('reset')"></button>
         </div>
       </div>
     </header>
@@ -145,8 +154,8 @@
     <!-- Progress Section -->
     <section class="mb-8 rounded-2xl border border-sand-200 bg-white p-5 shadow-sm">
       <div class="mb-4">
-        <h2 class="text-lg font-bold text-stone-900">Fortschritt nach Bereich</h2>
-        <p class="text-sm text-stone-500">Klicke auf einen Bereich um zu filtern</p>
+        <h2 class="text-lg font-bold text-stone-900" x-text="t('progress_by_area')"></h2>
+        <p class="text-sm text-stone-500" x-text="t('click_to_filter')"></p>
       </div>
       
       <div id="areaDashboard" class="space-y-3"></div>
@@ -168,8 +177,8 @@
       <!-- Header -->
       <div class="flex flex-col gap-4 border-b border-sand-100 p-5 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 class="text-lg font-bold text-stone-900">Module</h2>
-          <p class="text-sm text-stone-500" x-text="`${plannedStats().total} geplant, ${catalog.length - plannedStats().total} im Katalog`"></p>
+          <h2 class="text-lg font-bold text-stone-900" x-text="t('modules_title')"></h2>
+          <p class="text-sm text-stone-500" x-text="`${plannedStats().total} ${t('planned')}, ${catalog.length - plannedStats().total} ${t('in_catalog')}`"></p>
         </div>
         
         <div class="flex flex-wrap items-center gap-3">
@@ -177,7 +186,7 @@
           <div class="relative">
             <input x-model="filters.q" 
                    class="w-full rounded-lg border border-sand-200 bg-sand-50 py-2 pl-9 pr-4 text-sm placeholder:text-stone-400 focus:border-copper-500 focus:outline-none focus:ring-2 focus:ring-copper-500/20 sm:w-56" 
-                   placeholder="Module suchen..." />
+                   :placeholder="t('search_placeholder')" />
             <svg class="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
             </svg>
@@ -187,13 +196,18 @@
           <div class="flex items-center rounded-lg border border-sand-200 bg-sand-50 p-1">
             <button @click="toggleSort('title')" 
                     class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all" 
-                    :class="sort.by==='title' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'">
-              Titel
+                    :class="sort.by==='title' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'"
+                    x-text="t('title')">
             </button>
             <button @click="toggleSort('ects')" 
                     class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all" 
                     :class="sort.by==='ects' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'">
               ECTS
+            </button>
+            <button @click="toggleSort('h_index')" 
+                    class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all" 
+                    :class="sort.by==='h_index' ? 'bg-white text-stone-900 shadow-sm' : 'text-stone-500 hover:text-stone-700'"
+                    x-text="t('h_index')">
             </button>
           </div>
         </div>
@@ -206,7 +220,7 @@
             <div class="flex items-center gap-3">
               <span class="flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-stone-500">
                 <span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-xs text-emerald-700">&#10003;</span>
-                Geplant
+                <span x-text="t('planned_section')"></span>
               </span>
               <span class="text-xs tabular-nums text-stone-400" x-text="`${fmt(plannedStats().totalEcts)} ECTS`"></span>
             </div>
@@ -216,7 +230,7 @@
               <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
               </svg>
-              Alle entfernen
+              <span x-text="t('remove_all')"></span>
             </button>
           </div>
 
@@ -255,6 +269,9 @@
                             <p class="text-xs font-medium text-copper-600" x-text="course.code || 'Modul'"></p>
                             <h3 class="mt-1 font-semibold text-stone-900 leading-tight line-clamp-2" x-text="course.title"></h3>
                             <p class="mt-1 text-xs text-stone-500 truncate" x-text="course.professor || '-'"></p>
+                            <p x-show="course.h_index > 0" class="mt-0.5 text-xs text-stone-400">
+                              h-index: <span x-text="course.h_index"></span> | <span x-text="fmtK(course.citations)"></span> <span x-text="t('citations')"></span>
+                            </p>
                           </div>
                           <div class="flex flex-col items-end gap-1">
                             <span class="rounded-full px-2.5 py-1 text-xs font-bold tabular-nums"
@@ -280,8 +297,8 @@
         <!-- ========== CATALOG SECTION ========== -->
         <div>
           <div class="mb-4 flex items-center gap-3">
-            <span class="text-sm font-bold uppercase tracking-wide text-stone-500">Katalog</span>
-            <span class="text-xs text-stone-400" x-text="`${courses.filter(c => !c.status && !c.restricted).length} Module verfuegbar`"></span>
+            <span class="text-sm font-bold uppercase tracking-wide text-stone-500" x-text="t('catalog')"></span>
+            <span class="text-xs text-stone-400" x-text="`${courses.filter(c => !c.status && !c.restricted).length} ${t('modules_available')}`"></span>
           </div>
 
           <!-- Catalog Courses by Area -->
@@ -310,15 +327,18 @@
                           <div class="min-w-0 flex-1">
                             <div class="flex items-center gap-2">
                               <p class="text-xs font-medium text-copper-600" x-text="course.code || 'Modul'"></p>
-                              <span x-show="course.is_additional_course" class="rounded bg-amber-100 px-1.5 py-0.5 text-xs font-medium text-amber-700">Variabel</span>
+                              <span x-show="course.is_additional_course" class="rounded bg-amber-100 px-1.5 py-0.5 text-xs font-medium text-amber-700" x-text="t('variable')"></span>
                             </div>
                             <h3 class="mt-1 font-semibold text-stone-900 leading-tight line-clamp-2" x-text="course.title"></h3>
                             <p class="mt-1 text-xs text-stone-500 truncate" x-text="course.professor || '-'"></p>
+                            <p x-show="course.h_index > 0" class="mt-0.5 text-xs text-stone-400">
+                              h-index: <span x-text="course.h_index"></span> | <span x-text="fmtK(course.citations)"></span> <span x-text="t('citations')"></span>
+                            </p>
                             
                             <!-- AC Module: ECTS Info -->
                             <p x-show="course.is_additional_course && course.remaining_ects !== undefined" 
                                class="mt-2 text-xs text-amber-600" 
-                               x-text="`${course.remaining_ects} von ${course.max_ects} ECTS verfuegbar`"></p>
+                               x-text="`${course.remaining_ects} ${t('of')} ${course.max_ects} ${t('ects_available')}`"></p>
                           </div>
                           <span class="rounded-full bg-sand-100 px-2.5 py-1 text-xs font-bold tabular-nums text-stone-600" 
                                 x-text="(course.is_additional_course ? 'max. ' : '') + course.ects + ' ECTS'"></span>
@@ -329,8 +349,8 @@
                           <!-- Regular Course -->
                           <button x-show="!course.is_additional_course"
                                   @click="planCourse(course.id)" 
-                                  class="w-full rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600">
-                            Hinzufuegen
+                                  class="w-full rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600"
+                                  x-text="t('add')">
                           </button>
                           
                           <!-- AC Module -->
@@ -340,8 +360,8 @@
                                    placeholder="ECTS" 
                                    class="w-20 rounded-lg border border-sand-200 px-3 py-2 text-sm text-center" />
                             <button @click="addAdditionalCourse(course.id)" 
-                                    class="flex-1 rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600">
-                              Hinzufuegen
+                                    class="flex-1 rounded-lg bg-copper-500 py-2 text-sm font-semibold text-white transition-colors hover:bg-copper-600"
+                                    x-text="t('add')">
                             </button>
                           </div>
                         </div>
@@ -355,8 +375,8 @@
           
           <!-- Empty State -->
           <div x-show="!courses.filter(c => !c.status && !c.restricted).length" class="py-12 text-center">
-            <p class="text-stone-500">Keine Module gefunden.</p>
-            <button x-show="filters.q || filters.areas.length" @click="filters.q = ''; clearAreas()" class="mt-2 text-sm font-medium text-copper-600 hover:underline">Filter zuruecksetzen</button>
+            <p class="text-stone-500" x-text="t('no_modules_found')"></p>
+            <button x-show="filters.q || filters.areas.length" @click="filters.q = ''; clearAreas()" class="mt-2 text-sm font-medium text-copper-600 hover:underline" x-text="t('reset_filter')"></button>
           </div>
         </div>
       </div>
@@ -364,8 +384,8 @@
     
     <!-- Footer -->
     <footer class="mt-8 text-center text-xs text-stone-400">
-      <p>Mannheim DS Planner - Cloud Version</p>
-      <p class="mt-1">Daten werden lokal im Browser gespeichert (LocalStorage)</p>
+      <p x-text="t('footer_cloud')"></p>
+      <p class="mt-1" x-text="t('footer_storage')"></p>
     </footer>
     
   </div>

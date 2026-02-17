@@ -6,7 +6,164 @@
  */
 
 const STORAGE_KEY = 'mmds_planner_selections';
+const STORAGE_KEY_LANG = 'mmds_planner_lang';
 const STORAGE_VERSION = '1.0';
+
+// =============================================================================
+// Internationalization (i18n)
+// =============================================================================
+
+const i18n = {
+  de: {
+    // Header
+    cloud_version: 'Cloud Version - Daten werden lokal im Browser gespeichert',
+    export: 'Export',
+    
+    // KPI Cards
+    ects_planned: 'ECTS geplant',
+    modules: 'Module',
+    planned: 'geplant',
+    completed: 'abgeschlossen',
+    progress: 'Fortschritt',
+    areas: 'Bereiche',
+    filter: 'Filter',
+    all_areas: 'Alle Bereiche',
+    filter_active: 'Filter aktiv',
+    reset: 'Zuruecksetzen',
+    
+    // Progress Section
+    progress_by_area: 'Fortschritt nach Bereich',
+    click_to_filter: 'Klicke auf einen Bereich um zu filtern',
+    
+    // Module Section
+    modules_title: 'Module',
+    in_catalog: 'im Katalog',
+    search_placeholder: 'Module suchen...',
+    title: 'Titel',
+    h_index: 'H-Index',
+    
+    // Planned Section
+    planned_section: 'Geplant',
+    remove_all: 'Alle entfernen',
+    confirm_remove_all: 'Alle geplanten Module entfernen?',
+    
+    // Catalog Section
+    catalog: 'Katalog',
+    modules_available: 'Module verfuegbar',
+    variable: 'Variabel',
+    ects_available: 'ECTS verfuegbar',
+    of: 'von',
+    add: 'Hinzufuegen',
+    no_modules_found: 'Keine Module gefunden.',
+    reset_filter: 'Filter zuruecksetzen',
+    
+    // Export
+    export_plan: 'Plan exportieren',
+    formatted_text: 'Formatierter Text',
+    spreadsheet: 'Tabellenkalkulation',
+    structured_data: 'Strukturierte Daten',
+    backup: 'Backup',
+    save_backup: 'Backup speichern',
+    save_local_data: 'Lokale Daten sichern',
+    load_backup: 'Backup laden',
+    restore_data: 'Daten wiederherstellen',
+    
+    // Messages
+    loading_catalog: 'Katalog wird geladen...',
+    error_loading: 'Fehler beim Laden des Katalogs.',
+    error_saving: 'Fehler beim Speichern. Bitte LocalStorage-Limit pruefen.',
+    export_failed: 'Export fehlgeschlagen.',
+    invalid_file: 'Ungueltige Datei.',
+    import_error: 'Fehler beim Importieren',
+    import_confirm: 'Module importieren? Aktuelle Planung wird ersetzt.',
+    enter_ects: 'Bitte ECTS-Anzahl eingeben (mind. 1)',
+    enter_ects_ac: 'Bitte ECTS-Anzahl eingeben fuer Additional Course Module.',
+    max_ects_available: 'Maximal {n} ECTS verfuegbar',
+    
+    // Footer
+    footer_cloud: 'Mannheim DS Planner - Cloud Version',
+    footer_storage: 'Daten werden lokal im Browser gespeichert (LocalStorage)',
+    
+    // Metrics
+    citations: 'Zitationen',
+    k_citations: 'K Zitationen',
+  },
+  
+  en: {
+    // Header
+    cloud_version: 'Cloud Version - Data stored locally in browser',
+    export: 'Export',
+    
+    // KPI Cards
+    ects_planned: 'ECTS Planned',
+    modules: 'Modules',
+    planned: 'planned',
+    completed: 'completed',
+    progress: 'Progress',
+    areas: 'Areas',
+    filter: 'Filter',
+    all_areas: 'All Areas',
+    filter_active: 'Filter active',
+    reset: 'Reset',
+    
+    // Progress Section
+    progress_by_area: 'Progress by Area',
+    click_to_filter: 'Click on an area to filter',
+    
+    // Module Section
+    modules_title: 'Modules',
+    in_catalog: 'in catalog',
+    search_placeholder: 'Search modules...',
+    title: 'Title',
+    h_index: 'H-Index',
+    
+    // Planned Section
+    planned_section: 'Planned',
+    remove_all: 'Remove All',
+    confirm_remove_all: 'Remove all planned modules?',
+    
+    // Catalog Section
+    catalog: 'Catalog',
+    modules_available: 'modules available',
+    variable: 'Variable',
+    ects_available: 'ECTS available',
+    of: 'of',
+    add: 'Add',
+    no_modules_found: 'No modules found.',
+    reset_filter: 'Reset filter',
+    
+    // Export
+    export_plan: 'Export Plan',
+    formatted_text: 'Formatted text',
+    spreadsheet: 'Spreadsheet',
+    structured_data: 'Structured data',
+    backup: 'Backup',
+    save_backup: 'Save Backup',
+    save_local_data: 'Save local data',
+    load_backup: 'Load Backup',
+    restore_data: 'Restore data',
+    
+    // Messages
+    loading_catalog: 'Loading catalog...',
+    error_loading: 'Error loading catalog.',
+    error_saving: 'Error saving. Please check LocalStorage limit.',
+    export_failed: 'Export failed.',
+    invalid_file: 'Invalid file.',
+    import_error: 'Import error',
+    import_confirm: 'Import modules? Current plan will be replaced.',
+    enter_ects: 'Please enter ECTS (min. 1)',
+    enter_ects_ac: 'Please enter ECTS for Additional Course module.',
+    max_ects_available: 'Maximum {n} ECTS available',
+    
+    // Footer
+    footer_cloud: 'Mannheim DS Planner - Cloud Version',
+    footer_storage: 'Data stored locally in browser (LocalStorage)',
+    
+    // Metrics
+    citations: 'citations',
+    k_citations: 'K citations',
+  }
+};
 
 // =============================================================================
 // LocalStorage Functions
@@ -29,7 +186,7 @@ function loadSelectionsFromStorage() {
   }
 }
 
-function saveSelectionsToStorage(selections) {
+function saveSelectionsToStorage(selections, lang = 'de') {
   try {
     const data = {
       version: STORAGE_VERSION,
@@ -39,7 +196,7 @@ function saveSelectionsToStorage(selections) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
   } catch (e) {
     console.error('Failed to save selections to storage:', e);
-    alert('Fehler beim Speichern. Bitte LocalStorage-Limit pruefen.');
+    alert(i18n[lang]?.error_saving || i18n.de.error_saving);
   }
 }
 
@@ -69,6 +226,9 @@ function plannerApp() {
     loading: true,
     error: null,
     
+    // Language
+    lang: localStorage.getItem(STORAGE_KEY_LANG) || 'de',
+    
     // ==========================================================================
     // Initialization
     // ==========================================================================
@@ -93,7 +253,7 @@ function plannerApp() {
         this.$nextTick(() => this.renderChart());
       } catch (e) {
         console.error('Init failed:', e);
-        this.error = 'Fehler beim Laden des Katalogs.';
+        this.error = this.t('error_loading');
         this.loading = false;
       }
     },
@@ -241,7 +401,7 @@ function plannerApp() {
       
       // Don't allow planning AC modules with regular plan action
       if (course.is_additional_course) {
-        alert('Bitte ECTS-Anzahl eingeben fuer Additional Course Module.');
+        alert(this.t('enter_ects_ac'));
         return;
       }
       
@@ -252,7 +412,7 @@ function plannerApp() {
         ects: null, // Use course ECTS
       });
       
-      saveSelectionsToStorage(this.selections);
+      saveSelectionsToStorage(this.selections, this.lang);
     },
     
     addAdditionalCourse(courseId) {
@@ -261,7 +421,7 @@ function plannerApp() {
       
       const ects = parseInt(this.additionalCourseEcts[courseId]);
       if (!ects || ects < 1) {
-        alert('Bitte ECTS-Anzahl eingeben (mind. 1)');
+        alert(this.t('enter_ects'));
         return;
       }
       
@@ -272,7 +432,7 @@ function plannerApp() {
       const remaining = (course.max_ects || 18) - plannedEcts;
       
       if (ects > remaining) {
-        alert(`Maximal ${remaining} ECTS verfuegbar`);
+        alert(this.t('max_ects_available', { n: remaining }));
         return;
       }
       
@@ -284,7 +444,7 @@ function plannerApp() {
       });
       
       this.additionalCourseEcts[courseId] = null;
-      saveSelectionsToStorage(this.selections);
+      saveSelectionsToStorage(this.selections, this.lang);
     },
     
     removeCourse(courseId, selectionId = null) {
@@ -293,7 +453,7 @@ function plannerApp() {
       } else {
         this.selections = this.selections.filter(s => s.course_id !== courseId);
       }
-      saveSelectionsToStorage(this.selections);
+      saveSelectionsToStorage(this.selections, this.lang);
     },
     
     toggleCompleted(courseId, selectionId = null) {
@@ -306,13 +466,13 @@ function plannerApp() {
           break;
         }
       }
-      saveSelectionsToStorage(this.selections);
+      saveSelectionsToStorage(this.selections, this.lang);
     },
     
     removeAllPlanned() {
-      if (!confirm('Alle geplanten Module entfernen?')) return;
+      if (!confirm(this.t('confirm_remove_all'))) return;
       this.selections = [];
-      saveSelectionsToStorage(this.selections);
+      saveSelectionsToStorage(this.selections, this.lang);
     },
     
     // ==========================================================================
@@ -347,7 +507,7 @@ function plannerApp() {
         URL.revokeObjectURL(url);
       } catch (e) {
         console.error('Export failed:', e);
-        alert('Export fehlgeschlagen.');
+        alert(this.t('export_failed'));
       }
     },
     
@@ -379,19 +539,36 @@ function plannerApp() {
         try {
           const data = JSON.parse(e.target.result);
           if (data.selections && Array.isArray(data.selections)) {
-            if (confirm(`${data.selections.length} Module importieren? Aktuelle Planung wird ersetzt.`)) {
+            if (confirm(`${data.selections.length} ${this.t('import_confirm')}`)) {
               this.selections = data.selections;
-              saveSelectionsToStorage(this.selections);
+              saveSelectionsToStorage(this.selections, this.lang);
               this.$nextTick(() => this.renderChart());
             }
           } else {
-            alert('Ungueltige Datei.');
+            alert(this.t('invalid_file'));
           }
         } catch (err) {
-          alert('Fehler beim Importieren: ' + err.message);
+          alert(this.t('import_error') + ': ' + err.message);
         }
       };
       reader.readAsText(file);
+    },
+    
+    // ==========================================================================
+    // Language / i18n
+    // ==========================================================================
+    
+    t(key, params = {}) {
+      const str = i18n[this.lang]?.[key] || i18n['de'][key] || key;
+      // Simple parameter replacement: {n} -> params.n
+      return str.replace(/\{(\w+)\}/g, (_, k) => params[k] ?? '');
+    },
+    
+    toggleLang() {
+      this.lang = this.lang === 'de' ? 'en' : 'de';
+      localStorage.setItem(STORAGE_KEY_LANG, this.lang);
+      // Re-render chart with new language (area names stay same, just UI text)
+      this.$nextTick(() => this.renderChart());
     },
     
     // ==========================================================================
@@ -400,6 +577,14 @@ function plannerApp() {
     
     fmt(n) {
       return Number(n || 0).toFixed(0);
+    },
+    
+    fmtK(n) {
+      // Format large numbers as "7.0K"
+      if (n >= 1000) {
+        return (n / 1000).toFixed(1) + 'K';
+      }
+      return String(n);
     },
     
     plannedStats() {
