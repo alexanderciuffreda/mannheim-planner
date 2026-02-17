@@ -1,0 +1,4501 @@
+{
+  "courses": [
+    {
+      "id": "his-ie-696-advanced-methods-in-text-analytics-fss-2026",
+      "title": "IE 696 Advanced Methods in Text Analytics",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 696",
+      "semester": "FSS 2026",
+      "professor": "Dr. Daniel Ruffinelli, Prof. Dr. Simone Paolo Ponzetto",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Wirtschaftsinformatik (Enterprise Data Analysis)",
+      "metrics": {
+        "h_index": 32,
+        "citations": 7028,
+        "top_paper_title": "BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network",
+        "top_paper_citations": 1446,
+        "top_paper_year": 2012,
+        "top_paper_date": "2012-08-01",
+        "top_paper_venue": "Artificial Intelligence"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IE 696",
+          "titel": "Advanced Methods in Text Analytics",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Daniel Ruffinelli, Prof. Dr. Simone Paolo Ponzetto",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Wirtschaftsinformatik (Enterprise Data Analysis)"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Advanced Methods in Text"
+        }
+      }
+    },
+    {
+      "id": "his-ds-601-ai-product-development-fss-2026",
+      "title": "DS 601 AI product development",
+      "ects": 0.0,
+      "area_id": "data-analytics-methods",
+      "code": "DS 601",
+      "semester": "FSS 2026",
+      "professor": "Dhara Atul Mungra, Prof. Ph. D. Marc Ratkovic",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, W3-Professur für Politikwissenschaft, Social Data Science",
+      "metrics": {
+        "h_index": 9,
+        "citations": 2016,
+        "top_paper_title": "Covariate Balancing Propensity Score",
+        "top_paper_citations": 1260,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-07-03",
+        "top_paper_venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "DS 601",
+          "titel": "AI product development",
+          "typ": "Projekt",
+          "semester": "FSS 2026",
+          "dozenten": "Dhara Atul Mungra, Prof. Ph. D. Marc Ratkovic",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, W3-Professur für Politikwissenschaft, Social Data Science"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        }
+      }
+    },
+    {
+      "id": "his-cs-550-algorithmics-fss-2026",
+      "title": "CS 550 Algorithmics",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 550",
+      "semester": "FSS 2026",
+      "professor": "Jasmin Zalonis, Linda Scheu-Hachtel, Prof. Dr. Matthias Krause",
+      "chair": "Theoretische Informatik",
+      "metrics": {
+        "h_index": 30,
+        "citations": 5568,
+        "top_paper_title": "Antagonism between Ena/VASP Proteins and Actin Filament Capping Regulates Fibroblast Motility",
+        "top_paper_citations": 835,
+        "top_paper_year": 2002,
+        "top_paper_date": "2002-05-01",
+        "top_paper_venue": "Cell"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 550",
+          "titel": "Algorithmics",
+          "typ": "Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Jasmin Zalonis, Linda Scheu-Hachtel, Prof. Dr. Matthias Krause",
+          "organisation": "Theoretische Informatik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Algorithmics",
+          "form_of_module": "Lecture with tutorials",
+          "type_of_module": "Fundamental in Computer Science",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Practical Informatics I, Algorithms and Data Structures, Linear",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 Minutes",
+          "language": "English",
+          "offering": "Spring semester",
+          "lecturer": "Prof. Dr. Matthias Krause",
+          "person_in_charge": "Prof. Dr. Matthias Krause",
+          "duration_of_module": "1 semester",
+          "methods": "Reworking of lectures and tutorials, self-studies with literature,",
+          "media": "Lectures Slides and Exercises",
+          "literature": "- Cormen, Leiserson, Rivest, Stein: Introduction to Algorithms, 3"
+        }
+      }
+    },
+    {
+      "id": "his-ie-694-artificial-intelligence-applications-in-industry-lecture-fss-2026",
+      "title": "IE 694 Artificial Intelligence Applications in Industry",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 694",
+      "semester": "FSS 2026",
+      "professor": "Jakob Kappenberger, Keyvan Amiri Elyasi, Lea Cohausz, Patrick Betz, Prof. Dr. Heiner Stuckenschmidt, Ralph Bubak, Thilo Dieing",
+      "chair": "Praktische Informatik II (Stuckenschmidt), Dekanat der Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {
+        "h_index": 53,
+        "citations": 11843,
+        "top_paper_title": "Ontology-Based Integration of Information — A Survey of Existing Approaches",
+        "top_paper_citations": 1192,
+        "top_paper_year": 2001,
+        "top_paper_date": "2001-01-01",
+        "top_paper_venue": "http://www.cs.vu.nl/~heiner/public/ois-2001.pdf"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IE 694",
+          "titel": "Artificial Intelligence Applications in Industry - Lecture",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Jakob Kappenberger, Keyvan Amiri Elyasi, Lea Cohausz, Prof. Dr. Heiner Stuckenschmidt, Ralph Bubak, Thilo Dieing",
+          "organisation": "Dekanat der Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Praktische Informatik II (Stuckenschmidt)"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "his-ie-694-artificial-intelligence-applications-in-industry-exercise-fss-2026"
+        ],
+        "consolidated": true,
+        "module_code": "IE 694",
+        "his_parts": [
+          {
+            "id": "his-ie-694-artificial-intelligence-applications-in-industry-exercise-fss-2026",
+            "title": "IE 694 Artificial Intelligence Applications in Industry - Exercise",
+            "typ": "Übung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          },
+          {
+            "id": "his-ie-694-artificial-intelligence-applications-in-industry-lecture-fss-2026",
+            "title": "IE 694 Artificial Intelligence Applications in Industry - Lecture",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "po2020": {
+          "title": "Artificial Intelligence"
+        }
+      }
+    },
+    {
+      "id": "his-da-110-computational-analysis-of-communication-fss-2026",
+      "title": "DA 110 Computational Analysis of Communication",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "DA 110",
+      "semester": "FSS 2026",
+      "professor": "Dr. Rainer Freudenthaler",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {
+        "h_index": 7,
+        "citations": 243,
+        "top_paper_title": "“I know you’ve seen it!” Individual and social factors for users’ chatting behavior on Facebook",
+        "top_paper_citations": 106,
+        "top_paper_year": 2015,
+        "top_paper_date": "2015-03-21",
+        "top_paper_venue": "Computers in Human Behavior"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "DA 110",
+          "titel": "Computational Analysis of Communication",
+          "typ": "Praktische Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Rainer Freudenthaler",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Computational Analysis of"
+        }
+      }
+    },
+    {
+      "id": "his-cs-721-cs-721-seminar-data-science-i-methods-fss-2026",
+      "title": "CS 721 CS 721 Seminar Data-Science I - Methods",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 721",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Markus Strohmaier",
+      "chair": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {
+        "h_index": 36,
+        "citations": 5999,
+        "top_paper_title": "Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter",
+        "top_paper_citations": 543,
+        "top_paper_year": 2018,
+        "top_paper_date": "2018-01-02",
+        "top_paper_venue": "Political Communication"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 721",
+          "titel": "CS 721 Seminar Data-Science I - Methods",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Markus Strohmaier",
+          "organisation": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "po2020": {
+          "title": "Seminar Data-Science I",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "There are no formal requirements. However, previous participation",
+          "language": "English",
+          "offering": "Irregular",
+          "person_in_charge": "Markus Strohmaier, Marlene Lutz",
+          "duration_of_module": "1 semester",
+          "methods": "Self-study of assigned material, presentation of scientific articles,",
+          "media": "slides, scientific papers, blackboard (electronic)",
+          "literature": "Depends on the topic."
+        }
+      }
+    },
+    {
+      "id": "his-ie-500-data-mining-fss-2026",
+      "title": "IE 500 Data Mining",
+      "ects": 6.0,
+      "area_id": "fundamentals",
+      "code": "IE 500",
+      "semester": "FSS 2026",
+      "professor": "Aaron Steiner, Andreea Iana, Dr. Sven Hertling, Franz Krause, Prof. Dr. Christian Bizer",
+      "chair": "Lehrstuhl für Wirtschaftsinformatik V, Professur für Data Science",
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IE 500",
+          "titel": "Data Mining",
+          "typ": "Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Aaron Steiner, Andreea Iana, Dr. Sven Hertling, Franz Krause, Prof. Dr. Christian Bizer",
+          "organisation": "Lehrstuhl für Wirtschaftsinformatik V, Professur für Data Science"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Data Mining",
+          "form_of_module": "Lecture with exercises and project",
+          "type_of_module": "Business Informatics Fundamental",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Foundations of Statistics, Practical Informatics I",
+          "form_of_assessment": "Written examination (75%), project report (20%), oral project",
+          "duration_of_assessment": "60 minutes (written examination), 5-11 pages (project report), 5-15",
+          "language": "English",
+          "offering": "Fall semester / Spring semester",
+          "lecturer": "Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer; Dr. Sven Hertling",
+          "person_in_charge": "Prof. Dr. Heiko Paulheim; Prof. Dr. Christian Bizer; Dr. Sven Hertling",
+          "duration_of_module": "1 Semester",
+          "methods": "The course consists of a lecture together with accompanying",
+          "media": "Slide set, exercise sheets, Jupyter notebooks, data sets for the",
+          "literature": "- Pang-Ning Tan, Michael Steinback, Vipin Kumar: Introduction to"
+        }
+      }
+    },
+    {
+      "id": "his-cs-652-data-security-and-privacy-fss-2026",
+      "title": "CS 652 Data Security and Privacy",
+      "ects": 6.0,
+      "area_id": "fundamentals",
+      "code": "CS 652",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Frederik Armknecht",
+      "chair": "Praktische Informatik IV: Dependable Systems Engineering",
+      "metrics": {
+        "h_index": 29,
+        "citations": 3403,
+        "top_paper_title": "Improving Fast Algebraic Attacks",
+        "top_paper_citations": 205,
+        "top_paper_year": 2004,
+        "top_paper_date": "2004-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 652",
+          "titel": "Data Security and Privacy",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Frederik Armknecht",
+          "organisation": "Praktische Informatik IV: Dependable Systems Engineering"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Data Security and Privacy",
+          "form_of_module": "Inverted classroom with exercises",
+          "type_of_module": "Fundamental in Computer Science",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "There are no formal prerequisites but knowledge in cryptography or",
+          "form_of_assessment": "Written exam",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "FSS",
+          "lecturer": "Prof. Dr. Frederik Armknecht",
+          "person_in_charge": "Prof. Dr. Frederik Armknecht",
+          "duration_of_module": "1 semester",
+          "methods": "Reworking the lecture and studying the relevant literature in self-",
+          "media": "Video recordings, annotated lecture slides",
+          "literature": "Will be announced in the lecture"
+        }
+      }
+    },
+    {
+      "id": "his-ie-678-deep-learning-fss-2026",
+      "title": "IE 678 Deep Learning",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 678",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr.-Ing. Margret Keuper, Prof. Dr. Rainer Gemulla",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Maschinelles Lernen, Professur für Praktische Informatik I, Data Analysis/Machine Learning, Large Scale Management",
+      "metrics": {
+        "h_index": 30,
+        "citations": 3916,
+        "top_paper_title": "Large-scale matrix factorization with distributed stochastic gradient descent",
+        "top_paper_citations": 613,
+        "top_paper_year": 2011,
+        "top_paper_date": "2011-08-21",
+        "top_paper_venue": "Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IE 678",
+          "titel": "Deep Learning",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr.-Ing. Margret Keuper, Prof. Dr. Rainer Gemulla",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Maschinelles Lernen, Professur für Praktische Informatik I, Data Analysis/Machine Learning, Large Scale Management"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "his-ie-678-deep-learning-bung-fss-2026"
+        ],
+        "consolidated": true,
+        "module_code": "IE 678",
+        "his_parts": [
+          {
+            "id": "his-ie-678-deep-learning-fss-2026",
+            "title": "IE 678 Deep Learning",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          },
+          {
+            "id": "his-ie-678-deep-learning-bung-fss-2026",
+            "title": "IE 678 Deep Learning Übung",
+            "typ": "Übung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "po2020": {
+          "title": "Deep Learning",
+          "form_of_module": "Lecture with exercises",
+          "type_of_module": "Specialization Course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "IE 675b Machine Learning or equivalent",
+          "form_of_assessment": "Oral examination",
+          "duration_of_assessment": "25 minutes",
+          "language": "English",
+          "offering": "Spring semester",
+          "lecturer": "Prof. Dr. Magret Keuper",
+          "person_in_charge": "Prof. Dr. Rainer Gemulla",
+          "duration_of_module": "1 Semester",
+          "methods": "The course consists of a lecture accompanied by theoretical and",
+          "media": "Slide set, exercise sheets, software, datasets",
+          "literature": "- I. Drori. The Science of Deep Learning. Cambridge University Press,"
+        }
+      }
+    },
+    {
+      "id": "his-cs-668-generative-computer-vision-models-fss-2026",
+      "title": "CS 668 Generative Computer Vision Models",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "CS 668",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr.-Ing. Margret Keuper",
+      "chair": "Professur für Maschinelles Lernen",
+      "metrics": {
+        "h_index": 19,
+        "citations": 5465,
+        "top_paper_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+        "top_paper_citations": 3251,
+        "top_paper_year": 2017,
+        "top_paper_date": "2017-07-01",
+        "top_paper_venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 668",
+          "titel": "Generative Computer Vision Models",
+          "typ": "Vorlesung mit Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr.-Ing. Margret Keuper",
+          "organisation": "Professur für Maschinelles Lernen"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Generative Computer Vision"
+        }
+      }
+    },
+    {
+      "id": "his-cs-630-generative-software-engineering-fss-2026",
+      "title": "CS 630 Generative Software Engineering",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 630",
+      "semester": "FSS 2026",
+      "professor": "Dr. Marcus Kessel",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Softwaretechnik",
+      "metrics": {
+        "h_index": 5,
+        "citations": 66,
+        "top_paper_title": "Ranking software components for reuse based on non-functional properties",
+        "top_paper_citations": 12,
+        "top_paper_year": 2016,
+        "top_paper_date": "2016-07-23",
+        "top_paper_venue": "Information Systems Frontiers"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 630",
+          "titel": "Generative Software Engineering",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Marcus Kessel",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Softwaretechnik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Generative Software Engineering",
+          "form_of_module": "Lectures, exercises, tutorials and projects",
+          "type_of_module": "Specialization Course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "- Software Testing and Experimentation",
+          "form_of_assessment": "Project reports (70%), oral presentations (30%)",
+          "duration_of_assessment": "## Language English",
+          "language": "English",
+          "offering": "Spring semester",
+          "person_in_charge": "Dr. Marcus Kessel",
+          "duration_of_module": "1 Semester",
+          "methods": "Lectures, weekly exercises, experimentation with different systems",
+          "media": "Students acquire knowledge of the principles, practices and",
+          "literature": "Methods Lectures, weekly exercises, experimentation with different systems"
+        }
+      }
+    },
+    {
+      "id": "his-ie-685-large-language-models-and-agents-lecture-fss-2026",
+      "title": "IE 685 Large Language Models and Agents",
+      "ects": 3.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 685",
+      "semester": "FSS 2026",
+      "professor": "Dr. Ralph Peeters, Prof. Dr. Christian Bizer",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Wirtschaftsinformatik V",
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IE 685 Large Language Models and Agents (Lecture)",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Ralph Peeters, Prof. Dr. Christian Bizer",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Wirtschaftsinformatik V"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 3.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "his-ie-685-large-language-models-and-agents-fss-2026",
+          "pdf-ie-685"
+        ],
+        "consolidated": true,
+        "module_code": "IE 685",
+        "his_parts": [
+          {
+            "id": "his-ie-685-large-language-models-and-agents-fss-2026",
+            "title": "IE 685 Large Language Models and Agents",
+            "typ": "Tutorium",
+            "semester": "FSS 2026",
+            "ects": 3.0
+          },
+          {
+            "id": "his-ie-685-large-language-models-and-agents-lecture-fss-2026",
+            "title": "IE 685 Large Language Models and Agents (Lecture)",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 3.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IE 685",
+          "module_name": "Large Language Models and Agents",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "3,14"
+        }
+      }
+    },
+    {
+      "id": "his-ie-686-large-language-models-and-agents-project-fss-2026",
+      "title": "IE 686 Large Language Models and Agents (Project)",
+      "ects": 3.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 686",
+      "semester": "FSS 2026",
+      "professor": "Dr. Ralph Peeters, Prof. Dr. Christian Bizer",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Wirtschaftsinformatik V",
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IE 686 Large Language Models and Agents (Project)",
+          "typ": "Projekt",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Ralph Peeters, Prof. Dr. Christian Bizer",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Lehrstuhl für Wirtschaftsinformatik V"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 3.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-ie-686"
+        ],
+        "consolidated": true,
+        "module_code": "IE 686",
+        "his_parts": [
+          {
+            "id": "his-ie-686-large-language-models-and-agents-project-fss-2026",
+            "title": "IE 686 Large Language Models and Agents (Project)",
+            "typ": "Projekt",
+            "semester": "FSS 2026",
+            "ects": 3.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IE 686",
+          "module_name": "Large Language Models and Agents (Project)",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "125,175"
+        },
+        "po2020": {
+          "title": "Large Language Models and"
+        }
+      }
+    },
+    {
+      "id": "his-ie-692-ie-692-advanced-process-mining-fss-2026",
+      "title": "IE 692 IE 692 Advanced Process Mining",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 692",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Daniel Schuster",
+      "chair": "JP für Methoden der Künstlichen Intelligenz",
+      "metrics": {
+        "h_index": 16,
+        "citations": 950,
+        "top_paper_title": "PM4Py: A process mining library for Python",
+        "top_paper_citations": 117,
+        "top_paper_year": 2023,
+        "top_paper_date": "2023-08-05",
+        "top_paper_venue": "Software Impacts"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IE 692",
+          "titel": "IE 692 Advanced Process Mining",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Daniel Schuster",
+          "organisation": "JP für Methoden der Künstlichen Intelligenz"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0
+      }
+    },
+    {
+      "id": "his-ie-698-foundations-and-applications-of-digital-health-technologies-fss-2026",
+      "title": "IE 698 Foundations and Applications of Digital Health Technologies",
+      "ects": 3.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 698",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Philipp Kellmeyer",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Juniorprofessur für Responsible AI and Digital Health",
+      "metrics": {
+        "h_index": 23,
+        "citations": 4074,
+        "top_paper_title": "Ventral and dorsal pathways for language",
+        "top_paper_citations": 1559,
+        "top_paper_year": 2008,
+        "top_paper_date": "2008-11-12",
+        "top_paper_venue": "Proceedings of the National Academy of Sciences"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IE 698 Foundations and Applications of Digital Health Technologies",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Philipp Kellmeyer",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Juniorprofessur für Responsible AI and Digital Health"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 3.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-ie-698"
+        ],
+        "consolidated": true,
+        "module_code": "IE 698",
+        "his_parts": [
+          {
+            "id": "his-ie-698-foundations-and-applications-of-digital-health-technologies-fss-2026",
+            "title": "IE 698 Foundations and Applications of Digital Health Technologies",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 3.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IE 698",
+          "module_name": "Foundations and Applications of Digital Health Technologies",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "125,190"
+        },
+        "po2020": {
+          "title": "Foundations and Applications of"
+        }
+      }
+    },
+    {
+      "id": "his-cs-647-image-processing-fss-2026",
+      "title": "CS 647 Image Processing",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "CS 647",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr.-Ing. Margret Keuper",
+      "chair": "Professur für Maschinelles Lernen",
+      "metrics": {
+        "h_index": 19,
+        "citations": 5465,
+        "top_paper_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+        "top_paper_citations": 3251,
+        "top_paper_year": 2017,
+        "top_paper_date": "2017-07-01",
+        "top_paper_venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 647",
+          "titel": "Image Processing",
+          "typ": "Vorlesung mit Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr.-Ing. Margret Keuper",
+          "organisation": "Professur für Maschinelles Lernen"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "po2020": {
+          "title": "Image Processing",
+          "form_of_module": "Lecture with Exercise (partially online)",
+          "type_of_module": "Specialization Course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Basis skills in linear algebra, basis knowledge in python",
+          "form_of_assessment": "written examination",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Spring Semester",
+          "lecturer": "Professor Dr.-Ing. Margret Keuper",
+          "person_in_charge": "Professor Dr.-Ing. Margret Keuper",
+          "duration_of_module": "1 Semester",
+          "methods": "Lecture, weekly exercise, book studies, implementation of",
+          "media": "Exercise sheets and lecture slides available online.",
+          "literature": "- R. Szeliski: Computer Vision Algorithms and Applications, Springer,"
+        }
+      }
+    },
+    {
+      "id": "his-is-618-social-media-data-analysis-fss-2026",
+      "title": "IS 618 Social Media Data Analysis",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 618",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Markus Strohmaier",
+      "chair": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Betriebswirtschaftslehre",
+      "metrics": {
+        "h_index": 36,
+        "citations": 5999,
+        "top_paper_title": "Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter",
+        "top_paper_citations": 543,
+        "top_paper_year": 2018,
+        "top_paper_date": "2018-01-02",
+        "top_paper_venue": "Political Communication"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IS 618 Social Media Data Analysis",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Markus Strohmaier",
+          "organisation": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Betriebswirtschaftslehre"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-is-618"
+        ],
+        "consolidated": true,
+        "module_code": "IS 618",
+        "his_parts": [
+          {
+            "id": "his-is-618-social-media-data-analysis-fss-2026",
+            "title": "IS 618 Social Media Data Analysis",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IS 618",
+          "module_name": "Social Media Data Analysis",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "3"
+        }
+      }
+    },
+    {
+      "id": "his-is-622-network-science-fss-2026",
+      "title": "IS 622 Network Science",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 622",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Markus Strohmaier",
+      "chair": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Betriebswirtschaftslehre",
+      "metrics": {
+        "h_index": 36,
+        "citations": 5999,
+        "top_paper_title": "Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter",
+        "top_paper_citations": 543,
+        "top_paper_year": 2018,
+        "top_paper_date": "2018-01-02",
+        "top_paper_venue": "Political Communication"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IS 622 Network Science",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Markus Strohmaier",
+          "organisation": "Data Science in den Wirtschafts- und Sozialwissenschaften, Fakultät für Betriebswirtschaftslehre"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-is-622"
+        ],
+        "consolidated": true,
+        "module_code": "IS 622",
+        "his_parts": [
+          {
+            "id": "his-is-622-network-science-fss-2026",
+            "title": "IS 622 Network Science",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IS 622",
+          "module_name": "Network Science",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "126"
+        }
+      }
+    },
+    {
+      "id": "his-is-723-seminar-data-science-ii-empirical-studies-fss-2026",
+      "title": "IS 723 Seminar Data-Science II (Empirical Studies)",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "IS 723",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Markus Strohmaier",
+      "chair": "Data Science in den Wirtschafts- und Sozialwissenschaften",
+      "metrics": {
+        "h_index": 36,
+        "citations": 5999,
+        "top_paper_title": "Election Campaigning on Social Media: Politicians, Audiences, and the Mediation of Political Communication on Facebook and Twitter",
+        "top_paper_citations": 543,
+        "top_paper_year": 2018,
+        "top_paper_date": "2018-01-02",
+        "top_paper_venue": "Political Communication"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "IS 723 Seminar Data-Science II - Empirical Studies",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Markus Strohmaier",
+          "organisation": "Data Science in den Wirtschafts- und Sozialwissenschaften"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "offered_terms": [
+          "FSS",
+          "HWS"
+        ],
+        "merged_from": [
+          "pdf-is-723"
+        ],
+        "consolidated": true,
+        "module_code": "IS 723",
+        "his_parts": [
+          {
+            "id": "his-is-723-seminar-data-science-ii-empirical-studies-fss-2026",
+            "title": "IS 723 Seminar Data-Science II - Empirical Studies",
+            "typ": "Seminar",
+            "semester": "FSS 2026",
+            "ects": 4.0
+          }
+        ],
+        "baseline": {
+          "module_code": "IS 723",
+          "module_name": "Seminar Data-Science II (Empirical Studies)",
+          "ects": 4,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "230"
+        },
+        "po2020": {
+          "title": "Seminar Data-Science II (Empirical"
+        }
+      }
+    },
+    {
+      "id": "his-is-752-is-752-seminar-on-process-and-management-analytics-fss-2026",
+      "title": "IS 752 IS 752 Seminar on Process and Management Analytics",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "IS 752",
+      "semester": "FSS 2026",
+      "professor": "Marie-Christin Häge",
+      "chair": "JP Management Analytics",
+      "metrics": {
+        "h_index": 1,
+        "citations": 3,
+        "top_paper_title": "A Taxonomy for Conformance Checking Visualizations",
+        "top_paper_citations": 2,
+        "top_paper_year": 2025,
+        "top_paper_date": "2025-01-01",
+        "top_paper_venue": "Lecture notes in business information processing"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "IS 752",
+          "titel": "IS 752 Seminar on Process and Management Analytics",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Marie-Christin Häge",
+          "organisation": "JP Management Analytics"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "po2020": {
+          "title": "Seminar on Process and Management"
+        }
+      }
+    },
+    {
+      "id": "his-cs-716-it-security-fss-2026",
+      "title": "CS 716 IT-Security",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 716",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Frederik Armknecht",
+      "chair": "(alt) Lehrstuhl für Praktische Informatik IV, Praktische Informatik IV: Dependable Systems Engineering",
+      "metrics": {
+        "h_index": 29,
+        "citations": 3403,
+        "top_paper_title": "Improving Fast Algebraic Attacks",
+        "top_paper_citations": 205,
+        "top_paper_year": 2004,
+        "top_paper_date": "2004-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 716",
+          "titel": "IT-Security",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Frederik Armknecht",
+          "organisation": "(alt) Lehrstuhl für Praktische Informatik IV, Praktische Informatik IV: Dependable Systems Engineering"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "po2020": {
+          "title": "IT-Security",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Bachelor’s degree, the fundamentals",
+          "language": "English",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Armknecht",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books; final presentation with PowerPoint or",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "his-maa-519-stochastic-calculus-fss-2026",
+      "title": "MAA 519 Stochastic Calculus",
+      "ects": 5.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAA 519",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. David Johannes Prömel, Mihriban Ceylan",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Juniorprofessur für Wirtschaftsmathematik, Lehrstuhl für Mathematik VI",
+      "metrics": {
+        "h_index": 16,
+        "citations": 969,
+        "top_paper_title": "A novel comparative study for detection of Covid-19 on CT lung images using texture analysis, machine learning, and deep learning methods",
+        "top_paper_citations": 72,
+        "top_paper_year": 2020,
+        "top_paper_date": "2020-10-06",
+        "top_paper_venue": "Multimedia Tools and Applications"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "MAA 519 Stochastic Calculus",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. David Johannes Prömel",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Juniorprofessur für Wirtschaftsmathematik, Lehrstuhl für Mathematik VI"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 5.0,
+        "offered_terms": [
+          "FSS",
+          "HWS"
+        ],
+        "merged_from": [
+          "his-maa-519-stochastic-calculus-bung-fss-2026",
+          "pdf-maa-519"
+        ],
+        "consolidated": true,
+        "module_code": "MAA 519",
+        "his_parts": [
+          {
+            "id": "his-maa-519-stochastic-calculus-fss-2026",
+            "title": "MAA 519 Stochastic Calculus",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 5.0
+          },
+          {
+            "id": "his-maa-519-stochastic-calculus-bung-fss-2026",
+            "title": "MAA 519 Stochastic Calculus Übung",
+            "typ": "Übung",
+            "semester": "FSS 2026",
+            "ects": 5.0
+          }
+        ],
+        "baseline": {
+          "module_code": "MAA 519",
+          "module_name": "Stochastic Calculus",
+          "ects": 5,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "126"
+        }
+      }
+    },
+    {
+      "id": "his-mac-502-computational-finance-fss-2026",
+      "title": "MAC 502 Computational Finance",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAC 502",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Andreas Neuenkirch",
+      "chair": "Wirtschaftsmathematik II, Numerik",
+      "metrics": {
+        "h_index": 20,
+        "citations": 1292,
+        "top_paper_title": "An Euler-type method for the strong approximation of the Cox–Ingersoll–Ross process",
+        "top_paper_citations": 148,
+        "top_paper_year": 2011,
+        "top_paper_date": "2011-12-14",
+        "top_paper_venue": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "MAC 502 Computational Finance",
+          "typ": "Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Andreas Neuenkirch",
+          "organisation": "Wirtschaftsmathematik II, Numerik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-mac-502"
+        ],
+        "consolidated": true,
+        "module_code": "MAC 502",
+        "his_parts": [
+          {
+            "id": "his-mac-502-computational-finance-fss-2026",
+            "title": "MAC 502 Computational Finance",
+            "typ": "Übung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "baseline": {
+          "module_code": "MAC 502",
+          "module_name": "Computational Finance",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        }
+      }
+    },
+    {
+      "id": "his-ds-201-machine-learning-and-causal-inference-fss-2026",
+      "title": "DS 201 Machine Learning and Causal Inference",
+      "ects": 9.0,
+      "area_id": "data-analytics-methods",
+      "code": "DS 201",
+      "semester": "FSS 2026",
+      "professor": "Prof. Ph. D. Marc Ratkovic",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Social Data Science und sozialwissenschaftliche Methodenlehre, W3-Professur für Politikwissenschaft, Social Data Science",
+      "metrics": {
+        "h_index": 9,
+        "citations": 2016,
+        "top_paper_title": "Covariate Balancing Propensity Score",
+        "top_paper_citations": 1260,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-07-03",
+        "top_paper_venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "DS 201",
+          "titel": "Machine Learning and Causal Inference",
+          "typ": "Vorlesung mit Übung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Ph. D. Marc Ratkovic",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Social Data Science und sozialwissenschaftliche Methodenlehre, W3-Professur für Politikwissenschaft, Social Data Science"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 9.0,
+        "po2020": {
+          "title": "Machine Learning and Causal"
+        }
+      }
+    },
+    {
+      "id": "his-cs-717-master-seminar-computer-vision-fss-2026",
+      "title": "CS 717 Master Seminar Computer Vision",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 717",
+      "semester": "FSS 2026",
+      "professor": "Margret Keuper",
+      "chair": "Professur für Maschinelles Lernen",
+      "metrics": {
+        "h_index": 19,
+        "citations": 5465,
+        "top_paper_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+        "top_paper_citations": 3251,
+        "top_paper_year": 2017,
+        "top_paper_date": "2017-07-01",
+        "top_paper_venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 717",
+          "titel": "Master Seminar Computer Vision",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "",
+          "organisation": "Professur für Maschinelles Lernen"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "po2020": {
+          "title": "Master Seminar on Computer Vision",
+          "form_of_module": "Seminar",
+          "type_of_module": "Seminar",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "## Higher Level Computer Vision, Generative Computer Vision",
+          "form_of_assessment": "50% Presentations (one 3-5min presentation and one 25-30min",
+          "duration_of_assessment": "N/A",
+          "language": "English",
+          "offering": "HWS/FSS",
+          "lecturer": "Margret Keuper",
+          "person_in_charge": "Margret Keuper",
+          "duration_of_module": "1 Semester",
+          "methods": "Do scientific reading independently under the guidance of a",
+          "media": "Scientific papers and books",
+          "literature": "Depending on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "his-ds-204-mathematical-foundations-of-machine-learning-for-social-data-scientists-fss-2026",
+      "title": "DS 204 Mathematical Foundations of Machine Learning for Social Data Scientists",
+      "ects": 0.0,
+      "area_id": "fundamentals",
+      "code": "DS 204",
+      "semester": "FSS 2026",
+      "professor": "Prof. Ph. D. Marc Ratkovic",
+      "chair": "W3-Professur für Politikwissenschaft, Social Data Science",
+      "metrics": {
+        "h_index": 9,
+        "citations": 2016,
+        "top_paper_title": "Covariate Balancing Propensity Score",
+        "top_paper_citations": 1260,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-07-03",
+        "top_paper_venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "DS 204",
+          "titel": "Mathematical Foundations of Machine Learning for Social Data Scientists",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Ph. D. Marc Ratkovic",
+          "organisation": "W3-Professur für Politikwissenschaft, Social Data Science"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        }
+      }
+    },
+    {
+      "id": "his-mkt-511-marketing-analytics-fss-2026",
+      "title": "MKT 511 Marketing Analytics",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "MKT 511",
+      "semester": "FSS 2026",
+      "professor": "Lennart Reissner, Prof. Dr. Florian Stahl, Tim Bublies",
+      "chair": "Lehrstuhl für ABWL und Marketing II",
+      "metrics": {
+        "h_index": 19,
+        "citations": 1795,
+        "top_paper_title": "The Impact of Brand Equity on Customer Acquisition, Retention, and Profit Margin",
+        "top_paper_citations": 356,
+        "top_paper_year": 2012,
+        "top_paper_date": "2012-05-30",
+        "top_paper_venue": "Journal of Marketing"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "MKT 511 Marketing Analytics",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Lennart Reissner, Prof. Dr. Florian Stahl, Tim Bublies",
+          "organisation": "Lehrstuhl für ABWL und Marketing II"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 6.0,
+        "offered_terms": [
+          "FSS"
+        ],
+        "merged_from": [
+          "pdf-mkt-511"
+        ],
+        "consolidated": true,
+        "module_code": "MKT 511",
+        "his_parts": [
+          {
+            "id": "his-mkt-511-marketing-analytics-fss-2026",
+            "title": "MKT 511 Marketing Analytics",
+            "typ": "Vorlesung",
+            "semester": "FSS 2026",
+            "ects": 6.0
+          }
+        ],
+        "baseline": {
+          "module_code": "MKT 511",
+          "module_name": "Marketing Analytics",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        }
+      }
+    },
+    {
+      "id": "his-mab-519-reinforcement-learning-fss-2026",
+      "title": "MAB 519 Reinforcement Learning",
+      "ects": 10.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAB 519",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Leif Döring",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Stochastik",
+      "metrics": {
+        "h_index": 11,
+        "citations": 814,
+        "top_paper_title": "Glioblastoma hijacks neuronal mechanisms for brain invasion",
+        "top_paper_citations": 542,
+        "top_paper_year": 2022,
+        "top_paper_date": "2022-07-31",
+        "top_paper_venue": "Cell"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "MAB 519",
+          "titel": "Reinforcement Learning",
+          "typ": "Vorlesung",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Leif Döring",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik, Professur für Stochastik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 10.0
+      }
+    },
+    {
+      "id": "his-sq-500-scientific-research-fss-2026",
+      "title": "SQ 500 Scientific Research",
+      "ects": 2.0,
+      "area_id": "projects-and-seminars",
+      "code": "SQ 500",
+      "semester": "FSS 2026",
+      "professor": "Dr. Philipp Zumstein, Jörg Mechnich, Stefan Weil",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {
+        "h_index": 111,
+        "citations": 51447,
+        "top_paper_title": "The fast ATLAS track simulation (FATRAS)",
+        "top_paper_citations": 22,
+        "top_paper_year": 2008,
+        "top_paper_date": "2008-03-02",
+        "top_paper_venue": "CERN Document Server (European Organization for Nuclear Research)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "SQ 500",
+          "titel": "Scientific Research",
+          "typ": "Blockseminar",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Philipp Zumstein, Jörg Mechnich, Stefan Weil",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 2.0,
+        "po2020": {
+          "title": "Scientific Research",
+          "form_of_module": "Inverted Classroom with Exercises",
+          "type_of_module": "Key Qualification",
+          "level": "Master",
+          "ects": "2",
+          "prerequisites": "None",
+          "form_of_assessment": "Eine digital unterstützte Hausarbeit",
+          "duration_of_assessment": "150 minutes",
+          "language": "English",
+          "offering": "Spring semester/Fall semester",
+          "lecturer": "Lecturer from the University Library (UB)",
+          "person_in_charge": "Lecturer from the University Library (UB)",
+          "duration_of_module": "1 Semester",
+          "methods": "The students can individually work through the video recordings of",
+          "literature": "- The craft of research / Wayne C. Booth; Gregory G. Colomb;"
+        }
+      }
+    },
+    {
+      "id": "his-sem-477-mas-515-seminar-mathematische-optimierung-fss-2026",
+      "title": "SEM 477 / MAS 515 Seminar Mathematische Optimierung",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "SEM 477 / MAS 515",
+      "semester": "FSS 2026",
+      "professor": "Prof. Ph. D. Mathias Staudigl",
+      "chair": "LS f. Mathematische Optimierung, Professur für Stochastik",
+      "metrics": {
+        "h_index": 14,
+        "citations": 585,
+        "top_paper_title": "Evolution of social networks",
+        "top_paper_citations": 63,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-08-30",
+        "top_paper_venue": "European Journal of Operational Research"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "SEM 477 / MAS 515",
+          "titel": "Seminar Mathematische Optimierung",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Ph. D. Mathias Staudigl",
+          "organisation": "LS f. Mathematische Optimierung, Professur für Stochastik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0
+      }
+    },
+    {
+      "id": "his-cs-708-seminar-software-engineering-prof-atkinson-fss-2026",
+      "title": "CS 708 Seminar Software Engineering – Prof. Atkinson",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 708",
+      "semester": "FSS 2026",
+      "professor": "Prof. Dr. Colin Atkinson",
+      "chair": "Lehrstuhl für Softwaretechnik",
+      "metrics": {
+        "h_index": 30,
+        "citations": 5427,
+        "top_paper_title": "Model-driven development: a metamodeling foundation",
+        "top_paper_citations": 1047,
+        "top_paper_year": 2003,
+        "top_paper_date": "2003-09-01",
+        "top_paper_venue": "IEEE Software"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "CS 708",
+          "titel": "Seminar Software Engineering – Prof. Atkinson",
+          "typ": "Seminar",
+          "semester": "FSS 2026",
+          "dozenten": "Prof. Dr. Colin Atkinson",
+          "organisation": "Lehrstuhl für Softwaretechnik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        },
+        "ects_fallback": "baseline",
+        "ects_fallback_value": 4.0,
+        "po2020": {
+          "title": "Seminar Software Engineering",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Bachelor’s degree, the fundamentals",
+          "language": "English",
+          "offering": "Irregular",
+          "lecturer": "Colin Atkinson",
+          "duration_of_module": "1 semester",
+          "methods": "Scientific work performed independently under the guidance of a",
+          "media": "Scientific papers and books, presentation",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-617",
+      "title": "IS 617 Large Language Models for the Economic and Social Sciences",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 617",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 617",
+          "module_name": "Large Language Models for the Economic and Social Sciences",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "3"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-cs-733",
+      "title": "CS 733 Advanced Topics in Process Mining",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 733",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 733",
+          "module_name": "Advanced Topics in Process Mining",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "3,26"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ]
+      }
+    },
+    {
+      "id": "pdf-cs-734",
+      "title": "CS 734 Green Software Engineering",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 734",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 734",
+          "module_name": "Green Software Engineering",
+          "ects": 4,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "3,32"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-cs-460",
+      "title": "CS 460 Databases for Data Scientists",
+      "ects": 6.0,
+      "area_id": "fundamentals",
+      "code": "CS 460",
+      "semester": null,
+      "professor": "Dr. Sven Hertling",
+      "chair": null,
+      "metrics": {
+        "h_index": 14,
+        "citations": 562,
+        "top_paper_title": "OLaLa: Ontology Matching with Large Language Models",
+        "top_paper_citations": 48,
+        "top_paper_year": 2023,
+        "top_paper_date": "2023-11-28",
+        "top_paper_venue": "Proceedings of the 12th Knowledge Capture Conference 2023"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 460",
+          "module_name": "Databases for Data Scientists",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "42,46"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Databases for Data Scientists",
+          "form_of_module": "Lecture with Exercise",
+          "type_of_module": "Foundations of Data Science (MMSDS)",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "-",
+          "form_of_assessment": "Written or oral examination",
+          "duration_of_assessment": "60 minutes (written exam)/30 minutes (oral exam)",
+          "language": "English",
+          "offering": "Spring semester",
+          "lecturer": "Dr. Sven Hertling",
+          "person_in_charge": "Prof. Dr. Heiko Paulheim; Dr. Sven Hertling",
+          "duration_of_module": "1 semester",
+          "methods": "The course consists of a lecture together and exercises. The",
+          "media": "Electronic slides and exercise sheets",
+          "literature": "## Avi Silberschatz, Henry F. Korth, S. Sudarshan: Database System"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-557",
+      "title": "IS 557 Scientific Programming with Python",
+      "ects": 6.0,
+      "area_id": "fundamentals",
+      "code": "IS 557",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 557",
+          "module_name": "Scientific Programming with Python",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "42"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Scientific Programming with"
+        }
+      }
+    },
+    {
+      "id": "pdf-ds-100",
+      "title": "DS 100 Statistics for Data Scientists",
+      "ects": 9.0,
+      "area_id": "fundamentals",
+      "code": "DS 100",
+      "semester": null,
+      "professor": "Prof. Dr. Marc Ratkovic",
+      "chair": null,
+      "metrics": {
+        "h_index": 9,
+        "citations": 2016,
+        "top_paper_title": "Covariate Balancing Propensity Score",
+        "top_paper_citations": 1260,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-07-03",
+        "top_paper_venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "DS 100",
+          "module_name": "Statistics for Data Scientists",
+          "ects": 9,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "42,51"
+        },
+        "ects_raw": 9,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Statistics for Data Scientists",
+          "form_of_module": "Lecture and Tutorial",
+          "type_of_module": "Foundations of Data Science",
+          "level": "Master",
+          "ects": "9 (270 hours)",
+          "prerequisites": "A sound introduction of the linear regression model (OLS) is",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 Minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Marc Ratkovic",
+          "person_in_charge": "Prof. Dr. Marc Ratkovic",
+          "duration_of_module": "1 semester",
+          "methods": "Lecture elements, weekly tests, literature studies",
+          "media": "Lecture slides available online, exercises available online",
+          "literature": "- Verbeek, M. 2017. A Guide to Modern Econometrics. 5th ed."
+        }
+      }
+    },
+    {
+      "id": "pdf-ac-651",
+      "title": "AC 651 Additional Course – Data Management",
+      "ects": 18.0,
+      "area_id": "data-management",
+      "code": "AC 651",
+      "semester": null,
+      "professor": "Lecturer at the host university",
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "AC 651",
+          "module_name": "Additional Course – Data Management",
+          "ects": "Max. 18",
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "52,56"
+        },
+        "ects_raw": "Max. 18",
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Additional Course – Data",
+          "form_of_module": "Depends on course",
+          "level": "Master",
+          "ects": "Max. 18",
+          "prerequisites": "Depends on course",
+          "language": "English preferred, but any other language possible if Mannheim",
+          "offering": "Spring semester / Fall semester",
+          "lecturer": "Lecturer at the host university",
+          "person_in_charge": "Lecturer at the host university",
+          "duration_of_module": "1 Semester",
+          "methods": "/ Form and",
+          "media": "/ Literature /"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-500",
+      "title": "CS 500 Advanced Software Engineering",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 500",
+      "semester": null,
+      "professor": "Dr. Marcus Kessel, Prof. Dr. Colin Atkinson",
+      "chair": null,
+      "metrics": {
+        "h_index": 30,
+        "citations": 5427,
+        "top_paper_title": "Model-driven development: a metamodeling foundation",
+        "top_paper_citations": 1047,
+        "top_paper_year": 2003,
+        "top_paper_date": "2003-09-01",
+        "top_paper_venue": "IEEE Software"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 500",
+          "module_name": "Advanced Software Engineering",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,59"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Advanced Software Engineering",
+          "form_of_module": "Lectures, exercises and tutorials",
+          "type_of_module": "Computer Science Fundamental",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Knowledge of Java and/or Python",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Dr. Marcus Kessel, Prof. Dr. Colin Atkinson",
+          "person_in_charge": "Prof. Dr. Colin Atkinson",
+          "duration_of_module": "1 Semester",
+          "methods": "Lectures, weekly exercises, experimentation with different systems",
+          "media": "Lecture notes, presentations, tool demonstrations, software, data",
+          "literature": "Paul Ammann & Jeff Offutt., “Introduction to Software Testing”,"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-560",
+      "title": "CS 560 Large Scale Data Management",
+      "ects": 6.0,
+      "area_id": "fundamentals",
+      "code": "CS 560",
+      "semester": null,
+      "professor": "Prof. Dr. Rainer Gemulla",
+      "chair": null,
+      "metrics": {
+        "h_index": 30,
+        "citations": 3916,
+        "top_paper_title": "Large-scale matrix factorization with distributed stochastic gradient descent",
+        "top_paper_citations": 613,
+        "top_paper_year": 2011,
+        "top_paper_date": "2011-08-21",
+        "top_paper_venue": "Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 560",
+          "module_name": "Large Scale Data Management",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,68,444"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Large-Scale Data Management",
+          "form_of_module": "Lecture with exercises",
+          "type_of_module": "Computer Science Fundamental",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Database systems, algorithms & data structures, Java programming",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Rainer Gemulla",
+          "person_in_charge": "Prof. Dr. Rainer Gemulla",
+          "duration_of_module": "1 semester",
+          "methods": "Lecture, weekly exercise, experimentation with different systems",
+          "media": "Slide set, black board, exercise sheets, datasets, software",
+          "literature": "## • T. Öszu, P. Valduriez:"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-600",
+      "title": "CS 600 Model-driven Development",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 600",
+      "semester": null,
+      "professor": "Prof. Dr. Colin Atkinson",
+      "chair": null,
+      "metrics": {
+        "h_index": 30,
+        "citations": 5427,
+        "top_paper_title": "Model-driven development: a metamodeling foundation",
+        "top_paper_citations": 1047,
+        "top_paper_year": 2003,
+        "top_paper_date": "2003-09-01",
+        "top_paper_venue": "IEEE Software"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 600",
+          "module_name": "Model-driven Development",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,72"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Model-Driven Development",
+          "form_of_module": "Lectures with accompanying tutorials",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Software Testing and Experimentation",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Colin Atkinson",
+          "person_in_charge": "Prof. Dr. Colin Atkinson",
+          "duration_of_module": "1 semester",
+          "methods": "Lectures, tutorials, independent study",
+          "media": "Printed Lecture Notes, Presentations, Tool Demonstrations",
+          "literature": "- Jos B. Warmer and Anneke G. Kleppe, The Object Constraint"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-605",
+      "title": "CS 605 Foundations of Artificial Intelligence: Search and Problem Solving",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 605",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 605 / CS 606",
+          "module_name": "Foundations of Artificial Intelligence: Search and Problem Solving",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,76"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-cs-651",
+      "title": "CS 651 Cryptography II",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 651",
+      "semester": null,
+      "professor": "Prof. Dr. Frederik Armknecht",
+      "chair": null,
+      "metrics": {
+        "h_index": 29,
+        "citations": 3403,
+        "top_paper_title": "Improving Fast Algebraic Attacks",
+        "top_paper_citations": 205,
+        "top_paper_year": 2004,
+        "top_paper_date": "2004-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 651",
+          "module_name": "Cryptography II",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,86"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Cryptography II",
+          "form_of_module": "Inverted classroom",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Even though the lecture deepens and continues topics discussed in",
+          "form_of_assessment": "Oral exam",
+          "duration_of_assessment": "30 minutes",
+          "language": "English",
+          "offering": "HWS",
+          "lecturer": "Prof. Dr. Frederik Armknecht",
+          "person_in_charge": "Prof. Dr. Frederik Armknecht",
+          "duration_of_module": "One term",
+          "methods": "Reworking the lecture and studying the relevant literature in self-",
+          "media": "Video recordings, annotated lecture slides",
+          "literature": "- Jonathan Katz, Yehuda Lindell: Introduction to Modern"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-655",
+      "title": "CS 655 Cryptography",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 655",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 655",
+          "module_name": "Cryptography",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "52,90"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Cryptography",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Basis skills in linear algebra, probability theory, algorithms, and data",
+          "form_of_assessment": "Oral examination",
+          "duration_of_assessment": "15 – 30 minutes",
+          "language": "English",
+          "offering": "FSS not offered in FSS 26",
+          "methods": "Lecture, exercises every two weeks, book studies",
+          "media": "Exercise sheets and lecture slides available online, blackboard",
+          "literature": "## • Christof Paar, Bart Preneel, Jan Pelzl: Understanding"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-664",
+      "title": "CS 664 Blockchain Security",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "CS 664",
+      "semester": null,
+      "professor": "Prof. Dr. Frederik Armknecht",
+      "chair": null,
+      "metrics": {
+        "h_index": 29,
+        "citations": 3403,
+        "top_paper_title": "Improving Fast Algebraic Attacks",
+        "top_paper_citations": 205,
+        "top_paper_year": 2004,
+        "top_paper_date": "2004-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 664",
+          "module_name": "Blockchain Security",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,95"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Blockchain Security",
+          "form_of_module": "Inverted classroom with exercises",
+          "type_of_module": "Specialization course",
+          "ects": "6",
+          "prerequisites": "There are no formal prerequisites but knowledge in cryptography",
+          "form_of_assessment": "Written exam",
+          "duration_of_assessment": "90 Minutes",
+          "language": "English",
+          "offering": "HWS",
+          "lecturer": "Prof. Dr. Frederik Armknecht",
+          "person_in_charge": "Prof. Dr. Frederik Armknecht",
+          "methods": "Reworking the lecture and studying the relevant literature in self-",
+          "media": "Video recordings, annotated lecture slides",
+          "literature": "Will be announced in the lecture"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-650",
+      "title": "IE 650 Knowledge Graphs",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "IE 650",
+      "semester": null,
+      "professor": "Dr. Sven Hertling",
+      "chair": null,
+      "metrics": {
+        "h_index": 14,
+        "citations": 562,
+        "top_paper_title": "OLaLa: Ontology Matching with Large Language Models",
+        "top_paper_citations": 48,
+        "top_paper_year": 2023,
+        "top_paper_date": "2023-11-28",
+        "top_paper_venue": "Proceedings of the 12th Knowledge Capture Conference 2023"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 650",
+          "module_name": "Knowledge Graphs",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,101"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Knowledge Graphs",
+          "form_of_module": "Lecture",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Java or Python programming skills",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "60 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Dr. Sven Hertling",
+          "person_in_charge": "Prof. Dr. Heiko Paulheim; Dr. Sven Hertling",
+          "duration_of_module": "1 semester",
+          "methods": "The course participants will take part in theoretical and practical",
+          "media": "Lecture slides and exercise sheets will be available online",
+          "literature": "- Pascal Hitzler, Markus Krötzsch and Sebastian Rudolph,"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-663",
+      "title": "IE 663 Information Retrieval and Web Search",
+      "ects": 3.0,
+      "area_id": "data-management",
+      "code": "IE 663",
+      "semester": null,
+      "professor": "Prof. Dr. Simone Paolo Ponzetto; Dr. Daniel Ruffinelli",
+      "chair": null,
+      "metrics": {
+        "h_index": 32,
+        "citations": 7028,
+        "top_paper_title": "BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network",
+        "top_paper_citations": 1446,
+        "top_paper_year": 2012,
+        "top_paper_date": "2012-08-01",
+        "top_paper_venue": "Artificial Intelligence"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 663",
+          "module_name": "Information Retrieval and Web Search",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "52,105"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Information Retrieval and Web Search",
+          "form_of_module": "Lecture",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "3",
+          "prerequisites": "Fundamental notions of linear algebra, probability theory, as well as",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Simone Paolo Ponzetto; Dr. Daniel Ruffinelli",
+          "person_in_charge": "Prof. Dr. Simone Paolo Ponzetto",
+          "duration_of_module": "1 semester",
+          "methods": "The course consists of (1) lectures that introduce the students to",
+          "media": "Lecture slides, exercise sheets",
+          "literature": "- Christopher D. Manning, Prabhakar Raghavan and Hinrich"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-670",
+      "title": "IE 670 Web Data Integration",
+      "ects": 3.0,
+      "area_id": "data-management",
+      "code": "IE 670",
+      "semester": null,
+      "professor": "Prof. Dr. Christian Bizer",
+      "chair": null,
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 670",
+          "module_name": "Web Data Integration",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "53,110"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Web Data Integration",
+          "form_of_module": "Lecture",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "3",
+          "prerequisites": "-",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "60 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Christian Bizer",
+          "person_in_charge": "Prof. Dr. Christian Bizer",
+          "duration_of_module": "1 semester",
+          "methods": "The course consists of a lecture that introduces students to state of",
+          "media": "slide set",
+          "literature": "- AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-683",
+      "title": "IE 683 Web Data Integration Project",
+      "ects": 3.0,
+      "area_id": "data-management",
+      "code": "IE 683",
+      "semester": null,
+      "professor": "Prof. Dr. Christian Bizer",
+      "chair": null,
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 683",
+          "module_name": "Web Data Integration Project",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "53,114"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Web Data Integration Project",
+          "form_of_module": "Project",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "3",
+          "prerequisites": "Programming skills in Python",
+          "form_of_assessment": "Project report (70%, 10-20 pages in length), oral project",
+          "duration_of_assessment": "-",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Christian Bizer",
+          "person_in_charge": "Prof. Dr. Christian Bizer",
+          "duration_of_module": "1 semester",
+          "methods": "Students work on their integration projects in teams and will report",
+          "media": "exercise sheets; Java project template",
+          "literature": "- AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-691",
+      "title": "IE 691 Information Retrieval Project",
+      "ects": 3.0,
+      "area_id": "data-management",
+      "code": "IE 691",
+      "semester": null,
+      "professor": "Prof. Dr. Simone Ponzetto",
+      "chair": null,
+      "metrics": {
+        "h_index": 32,
+        "citations": 7028,
+        "top_paper_title": "BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network",
+        "top_paper_citations": 1446,
+        "top_paper_year": 2012,
+        "top_paper_date": "2012-08-01",
+        "top_paper_venue": "Artificial Intelligence"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 691",
+          "module_name": "Information Retrieval Project",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "53,118"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Information Retrieval Project",
+          "form_of_module": "Project",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "3",
+          "prerequisites": "Programming skills (preferably in one of the higher-level",
+          "form_of_assessment": "Project report (70%, 10-20 pages in length), oral project",
+          "duration_of_assessment": "4-6 weeks (execution of the project work and writing of the report),",
+          "language": "English",
+          "offering": "HWS",
+          "lecturer": "Prof. Dr. Simone Ponzetto",
+          "person_in_charge": "Prof. Dr. Simone Ponzetto",
+          "duration_of_module": "1 semester",
+          "methods": "Students work on implementing an information retrieval system in",
+          "media": "Project task specifications",
+          "literature": "- Christopher D. Manning, Prabhakar Raghavan and Hinrich"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-540",
+      "title": "IS 540 Management of Enterprise Systems",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "IS 540",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 540",
+          "module_name": "Management of Enterprise Systems",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "53"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-is-556",
+      "title": "IS 556 Public Blockchains",
+      "ects": 6.0,
+      "area_id": "data-management",
+      "code": "IS 556",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 556",
+          "module_name": "Public Blockchains",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "53"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-ds-200",
+      "title": "DS 200 Sampling and Data",
+      "ects": 9.0,
+      "area_id": "data-management",
+      "code": "DS 200",
+      "semester": null,
+      "professor": "Prof. Dr. Marc Ratkovic",
+      "chair": null,
+      "metrics": {
+        "h_index": 9,
+        "citations": 2016,
+        "top_paper_title": "Covariate Balancing Propensity Score",
+        "top_paper_citations": 1260,
+        "top_paper_year": 2013,
+        "top_paper_date": "2013-07-03",
+        "top_paper_venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "DS 200",
+          "module_name": "Sampling and Data",
+          "ects": 9,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "53,121"
+        },
+        "ects_raw": 9,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Sampling and Data",
+          "form_of_module": "Lecture and Tutorial",
+          "type_of_module": "Data Science Methods: Fundamentals",
+          "level": "Master",
+          "ects": "9 (270 hours)",
+          "prerequisites": "-",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "90 Minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Marc Ratkovic",
+          "person_in_charge": "Prof. Dr. Marc Ratkovic",
+          "duration_of_module": "1 semester",
+          "methods": "Lecture elements, weekly tests, literature studies",
+          "media": "Lecture slides available online",
+          "literature": "- Angrist, Joshua D., and Jörn-Steffen Pischke. 2009. Mostly"
+        }
+      }
+    },
+    {
+      "id": "pdf-mac-570",
+      "title": "MAC 570 Reinforcement Learning - Coding",
+      "ects": 5.0,
+      "area_id": "data-management",
+      "code": "MAC 570",
+      "semester": null,
+      "professor": "Prof. Dr. Leif Döring, Prof. Dr. Simon Weißmann",
+      "chair": null,
+      "metrics": {
+        "h_index": 11,
+        "citations": 814,
+        "top_paper_title": "Glioblastoma hijacks neuronal mechanisms for brain invasion",
+        "top_paper_citations": 542,
+        "top_paper_year": 2022,
+        "top_paper_date": "2022-07-31",
+        "top_paper_venue": "Cell"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAC 570",
+          "module_name": "Reinforcement Learning - Coding",
+          "ects": 5,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "53,123"
+        },
+        "ects_raw": 5,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Reinforcement Learning - Coding",
+          "form_of_module": "Lectures with exercises",
+          "type_of_module": "Mathematics elective",
+          "level": "Master",
+          "ects": "5",
+          "prerequisites": "Reinforcement Learning",
+          "form_of_assessment": "Written exam",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Irregular",
+          "lecturer": "Prof. Dr. Leif Döring, Prof. Dr. Simon Weißmann",
+          "person_in_charge": "Prof. Dr. Leif Döring, Prof. Dr. Simon Weißmann",
+          "duration_of_module": "1 semester",
+          "methods": "Lectures, programmig tasks",
+          "media": "Blackboard, Slides",
+          "literature": "Original articles"
+        }
+      }
+    },
+    {
+      "id": "pdf-ac-652",
+      "title": "AC 652 Additional Course – Data Analytics Methods",
+      "ects": 18.0,
+      "area_id": "data-analytics-methods",
+      "code": "AC 652",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "AC 652",
+          "module_name": "Additional Course – Data Analytics Methods",
+          "ects": "Max. 18",
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "124,132"
+        },
+        "ects_raw": "Max. 18",
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Additional Course – Data"
+        }
+      }
+    },
+    {
+      "id": "pdf-ds-202",
+      "title": "DS 202 Seminar and Lab on Machine Learning and Causal Inference",
+      "ects": 9.0,
+      "area_id": "data-analytics-methods",
+      "code": "DS 202",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "DS 202",
+          "module_name": "Seminar and Lab on Machine Learning and Causal Inference",
+          "ects": 9,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "124,144"
+        },
+        "ects_raw": 9,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Seminar and Lab on Machine"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-560",
+      "title": "IE 560 Foundations of Artificial Intelligence – Reasoning and Decision Making",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 560",
+      "semester": null,
+      "professor": "Prof. Dr. Heiner Stuckenschmidt",
+      "chair": null,
+      "metrics": {
+        "h_index": 53,
+        "citations": 11843,
+        "top_paper_title": "Ontology-Based Integration of Information — A Survey of Existing Approaches",
+        "top_paper_citations": 1192,
+        "top_paper_year": 2001,
+        "top_paper_date": "2001-01-01",
+        "top_paper_venue": "http://www.cs.vu.nl/~heiner/public/ois-2001.pdf"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 560",
+          "module_name": "Foundations of Artificial Intelligence – Reasoning and Decision Making",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "124,154"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Foundations of Artificial Intelligence –",
+          "form_of_module": "Inverted classroom",
+          "type_of_module": "Business Informatics Fundamental",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Linear Algebra, Basic Probability Theory, Basic Knowledge of",
+          "form_of_assessment": "Written exam",
+          "duration_of_assessment": "90 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Heiner Stuckenschmidt",
+          "person_in_charge": "Prof. Dr. Heiner Stuckenschmidt",
+          "duration_of_module": "1 Semester",
+          "methods": "The course consists of a lecture accompanied by practical",
+          "media": "Lecture videos, slide set, exercise sheets, software tools",
+          "literature": "S. Russel and P. Norvig: AI a modern Approach (3"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-671",
+      "title": "IE 671 Web Mining",
+      "ects": 3.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 671",
+      "semester": null,
+      "professor": "Prof. Dr. Christian Bizer",
+      "chair": null,
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 671",
+          "module_name": "Web Mining",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "124,158"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Web Mining",
+          "form_of_module": "Lecture and Exercise",
+          "type_of_module": "Specialization course",
+          "level": "Master",
+          "ects": "3",
+          "prerequisites": "IE 500 Data Mining I (recommended). Fundamental notions of linear",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "60 minutes",
+          "language": "English",
+          "offering": "Spring semester: Not offered in FSS 26. Alternatively, IE 685 may be",
+          "lecturer": "Prof. Dr. Christian Bizer",
+          "person_in_charge": "Prof. Dr. Christian Bizer",
+          "duration_of_module": "1 semester",
+          "methods": "The course consists of a lecture together with accompanying",
+          "media": "slide set, exercise sheets, data sets for the exercises",
+          "literature": "## • Bing Liu: Web Data Mining. 2nd Edition, Springer, 2011."
+        }
+      }
+    },
+    {
+      "id": "pdf-machine-learning",
+      "title": "IE 675B Machine Learning",
+      "ects": 9.0,
+      "area_id": "fundamentals",
+      "code": "IE 675B",
+      "semester": null,
+      "professor": "Prof. Dr. Rainer Gemulla",
+      "chair": null,
+      "metrics": {
+        "h_index": 30,
+        "citations": 3916,
+        "top_paper_title": "Large-scale matrix factorization with distributed stochastic gradient descent",
+        "top_paper_citations": 613,
+        "top_paper_year": 2011,
+        "top_paper_date": "2011-08-21",
+        "top_paper_venue": "Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 675b",
+          "module_name": "Machine Learning",
+          "ects": 9,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "124,161,445"
+        },
+        "ects_raw": 9,
+        "offered_terms": [
+          "HWS"
+        ],
+        "merged_from": [
+          "pdf-ie-675b"
+        ],
+        "consolidated": true,
+        "module_code": "IE 675B",
+        "po2020": {
+          "title": "Machine Learning",
+          "form_of_module": "Lecture with exercises",
+          "type_of_module": "Specialization Course",
+          "level": "Master",
+          "ects": "9",
+          "prerequisites": "IE 500 Data Mining I (recommended) probability/linear algebra",
+          "form_of_assessment": "Written examination",
+          "duration_of_assessment": "120 minutes",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Prof. Dr. Rainer Gemulla",
+          "person_in_charge": "Prof. Dr. Rainer Gemulla",
+          "duration_of_module": "1 Semester",
+          "methods": "The course consists of a lecture accompanied by theoretical and",
+          "media": "Slide set, exercise sheets, software, datasets",
+          "literature": "- K.P. Murphy. Probabilistic Machine Learning: An Introduction. The"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-684",
+      "title": "IE 684 Web Mining Project",
+      "ects": 3.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 684",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 684",
+          "module_name": "Web Mining Project",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "125,170"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Web Mining Project not offered in"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-695",
+      "title": "IE 695 Reinforcement Learning",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 695",
+      "semester": null,
+      "professor": "Prof. Dr.-Ing. Margret Keuper",
+      "chair": null,
+      "metrics": {
+        "h_index": 19,
+        "citations": 5465,
+        "top_paper_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+        "top_paper_citations": 3251,
+        "top_paper_year": 2017,
+        "top_paper_date": "2017-07-01",
+        "top_paper_venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 695",
+          "module_name": "Reinforcement Learning",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "125,182"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Reinforcement Learning",
+          "form_of_module": "Lecture with Exercise (partially online)",
+          "type_of_module": "Data Analytics Methods",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Machine Learning / Computer Vision /Generative Computer Vision",
+          "form_of_assessment": "written examination",
+          "duration_of_assessment": "90 min.",
+          "language": "English",
+          "offering": "HWS",
+          "lecturer": "Prof. Dr.-Ing. Margret Keuper",
+          "person_in_charge": "Prof. Dr.-Ing. Margret Keuper",
+          "duration_of_module": "1 Semester",
+          "methods": "Lecture, exercises every two weeks, book studies",
+          "media": "Exercise sheets and lecture slides available online, blackboard",
+          "literature": "• Sutton & Barto: Reinforcement learning: an introduction, 2018"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-699",
+      "title": "IE 699 Co-creating digital health applications with design methodology",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IE 699",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 699",
+          "module_name": "Co-creating digital health applications with design methodology",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "125,195"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Co-creating digital health"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-515",
+      "title": "IS 515 Process Management and Analytics",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 515",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 515",
+          "module_name": "Process Management and Analytics",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "125"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Process Management and"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-616",
+      "title": "IS 616 Large Scale Data Analysis and Visualization",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 616",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 616",
+          "module_name": "Large Scale Data Analysis and Visualization",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "125,126"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Large Scale Data Analysis and"
+        }
+      }
+    },
+    {
+      "id": "pdf-is-661",
+      "title": "IS 661 Text Analytics",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "IS 661",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IS 661",
+          "module_name": "Text Analytics",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "126"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mab-504",
+      "title": "MAB 504 Mathematics and Information",
+      "ects": 8.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAB 504",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAB 504",
+          "module_name": "Mathematics and Information",
+          "ects": 8,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "126"
+        },
+        "ects_raw": 8,
+        "offered_terms": [
+          "Irregular"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mab-508",
+      "title": "MAB 508 Algebraische Statistik",
+      "ects": 8.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAB 508",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAB 508",
+          "module_name": "Algebraische Statistik",
+          "ects": 8,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 8,
+        "offered_terms": [
+          "Irregular"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mab-520",
+      "title": "MAB 520 Reinforcement Learning II",
+      "ects": 5.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAB 520",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAB 520",
+          "module_name": "Reinforcement Learning II",
+          "ects": 5,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 5,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mac-404",
+      "title": "MAC 404 Optimierung",
+      "ects": 8.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAC 404",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAC 404",
+          "module_name": "Optimierung",
+          "ects": 8,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 8,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mac-507",
+      "title": "MAC 507 Nichtlineare Optimierung",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAC 507",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAC 507",
+          "module_name": "Nichtlineare Optimierung",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mac-527",
+      "title": "MAC 527 Markov Processes",
+      "ects": 4.0,
+      "area_id": "data-analytics-methods",
+      "code": "MAC 527",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAC 527",
+          "module_name": "Markov Processes",
+          "ects": 4,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-mkt-545",
+      "title": "MKT 545 Customers, Markets and Firm Strategy",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "MKT 545",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MKT 545",
+          "module_name": "Customers, Markets and Firm Strategy",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Customers, Markets and Firm",
+          "methods": "## FSS E 6 PS*"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-646",
+      "title": "CS 646 Higher Level Computer Vision",
+      "ects": 6.0,
+      "area_id": "data-analytics-methods",
+      "code": "CS 646",
+      "semester": null,
+      "professor": "Professor Dr.-Ing. Margret Keuper",
+      "chair": null,
+      "metrics": {
+        "h_index": 19,
+        "citations": 5465,
+        "top_paper_title": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+        "top_paper_citations": 3251,
+        "top_paper_year": 2017,
+        "top_paper_date": "2017-07-01",
+        "top_paper_venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 646",
+          "module_name": "Higher Level Computer Vision",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127,200"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Higher Level Computer Vision",
+          "form_of_module": "Lecture with Exercise",
+          "type_of_module": "Specialization Course",
+          "level": "Master",
+          "ects": "6",
+          "prerequisites": "Basis skills in linear algebra, basis knowledge in python and pytorch",
+          "form_of_assessment": "written examination",
+          "duration_of_assessment": "90 minutes (written)",
+          "language": "English",
+          "offering": "Fall semester",
+          "lecturer": "Professor Dr.-Ing. Margret Keuper",
+          "person_in_charge": "Professor Dr.-Ing. Margret Keuper",
+          "duration_of_module": "1 Semester",
+          "methods": "Lecture, weekly exercise, book studies, implementation of",
+          "media": "Exercise sheets and lecture slides are available online.",
+          "literature": "- Goodfellow et al..: Deep Learning, MIT Press, 2016."
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-718",
+      "title": "CS 718 AI and Data Science in Fiction and Society",
+      "ects": 4.0,
+      "area_id": "responsible-data-science",
+      "code": "CS 718",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 718",
+          "module_name": "AI and Data Science in Fiction and Society",
+          "ects": 4,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "208,221,448"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "AI and Data Science in Fiction and"
+        }
+      }
+    },
+    {
+      "id": "pdf-ac-654",
+      "title": "AC 654 Additional Course – Responsible Data Science",
+      "ects": 18.0,
+      "area_id": "responsible-data-science",
+      "code": "AC 654",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "AC 654",
+          "module_name": "Additional Course – Responsible Data Science",
+          "ects": "Max. 18",
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "208,223"
+        },
+        "ects_raw": "Max. 18",
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Additional Course – Responsible"
+        }
+      }
+    },
+    {
+      "id": "pdf-ds-203",
+      "title": "DS 203 Responsible AI: Conceptual Foundations, Methods and Applications",
+      "ects": 6.0,
+      "area_id": "responsible-data-science",
+      "code": "DS 203",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "DS 203",
+          "module_name": "Responsible AI: Conceptual Foundations, Methods and Applications",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "208,229"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ],
+        "po2020": {
+          "title": "Responsible AI: Conceptual"
+        }
+      }
+    },
+    {
+      "id": "pdf-ac-653",
+      "title": "AC 653 Additional Course – Projects and Seminars",
+      "ects": 18.0,
+      "area_id": "projects-and-seminars",
+      "code": "AC 653",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "AC 653",
+          "module_name": "Additional Course – Projects and Seminars",
+          "ects": "Max. 18",
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "230,232"
+        },
+        "ects_raw": "Max. 18",
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Additional Course – Projects and"
+        }
+      }
+    },
+    {
+      "id": "pdf-tp-500",
+      "title": "TP 500 Team Project",
+      "ects": 12.0,
+      "area_id": "projects-and-seminars",
+      "code": "TP 500",
+      "semester": null,
+      "professor": "Professors of the School of Business Informatics and Mathematics",
+      "chair": null,
+      "metrics": {
+        "h_index": 55,
+        "citations": 51210,
+        "top_paper_title": "Review of Particle Physics",
+        "top_paper_citations": 6400,
+        "top_paper_year": 2004,
+        "top_paper_date": "2004-06-29",
+        "top_paper_venue": "Physics Letters B"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "TP 500",
+          "module_name": "Team Project",
+          "ects": 12,
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "230,239,450"
+        },
+        "ects_raw": 12,
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Team Project",
+          "form_of_module": "Project",
+          "type_of_module": "Team Project",
+          "level": "Master",
+          "ects": "12 in two consecutive semesters or",
+          "prerequisites": "Depends on topic",
+          "form_of_assessment": "One or more reports totaling 50 - 120 pages (depending on the",
+          "duration_of_assessment": "Final report (length: one of more reports totalling 50-120 pages",
+          "language": "English",
+          "offering": "Spring semester/Fall semester",
+          "lecturer": "Professors of the School of Business Informatics and Mathematics",
+          "person_in_charge": "Professors of the Institute of Computer Science and Business",
+          "duration_of_module": "1 semester or 2 semesters",
+          "methods": "Team-discussions, Presentations, Teamwork, Individual preparation",
+          "media": "Depends on project",
+          "literature": "Depends on topic"
+        }
+      }
+    },
+    {
+      "id": "pdf-ip-500",
+      "title": "IP 500 Individual Project",
+      "ects": 8.0,
+      "area_id": "projects-and-seminars",
+      "code": "IP 500",
+      "semester": null,
+      "professor": "Professors of the Institute of School of Business Informatics and",
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IP 500",
+          "module_name": "Individual Project",
+          "ects": 8,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,241,450"
+        },
+        "ects_raw": 8,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Individual Project",
+          "form_of_module": "Project",
+          "type_of_module": "Individual Project",
+          "level": "Master",
+          "ects": "8",
+          "prerequisites": "Depends on topic",
+          "language": "English/German",
+          "offering": "Irregular",
+          "lecturer": "Professors of the Institute of School of Business Informatics and",
+          "duration_of_module": "1 semester",
+          "methods": "Self-study, presentations",
+          "media": "Depends on project",
+          "literature": "Depends on topic"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-701",
+      "title": "CS 701 Selected Topics in Algorithmics and Cryptography",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 701",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 701",
+          "module_name": "Selected Topics in Algorithmics and Cryptography",
+          "ects": 4,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "230,250"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Seminar Selected Topics in"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-704",
+      "title": "CS 704 Master Seminar Artificial Intelligence",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 704",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 704",
+          "module_name": "Master Seminar Artificial Intelligence",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,254"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Master Seminar Artificial Intelligence",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Decision Support or Data Mining or Knowledge Management",
+          "language": "English",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Heiner Stuckenschmidt",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific reading independently under the guidance of a",
+          "media": "Scientific papers and books; final presentation with latex slides",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-707",
+      "title": "CS 707 Data Analytics Seminar",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 707",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 707",
+          "module_name": "Data Analytics Seminar",
+          "ects": 4,
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "230,259"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ],
+        "po2020": {
+          "title": "Data Analytics Seminar",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "CS Fundamentals; relevant Master Courses depending on the topic",
+          "language": "English",
+          "offering": "F SS + HWS (typically)",
+          "person_in_charge": "Prof. Dr. Rainer Gemulla or research staff member",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books; software and datasets; final",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-709",
+      "title": "CS 709 Seminar Text Analytics",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 709",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 709",
+          "module_name": "Seminar Text Analytics",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,267"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Seminar Text Analytics",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "IS 661 “Text Analytics” or IE 663 “Web Search and Information",
+          "language": "English or German",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Simone Paolo Ponzetto",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books; presentation with PowerPoint or",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-710",
+      "title": "CS 710 Selected Topics in Data Science",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 710",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 710",
+          "module_name": "Selected Topics in Data Science",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,271"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Selected Topics in Data Science",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Bachelor degree, the fundamentals",
+          "language": "English or German",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Heiko Paulheim and Dr. Sven Hertling",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-715",
+      "title": "CS 715 Solving Complex Tasks using Large Language Models",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 715",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 715",
+          "module_name": "Solving Complex Tasks using Large Language Models",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,275"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Solving Complex Tasks using Large Language Models",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Bachelor’s degree, the fundamentals",
+          "language": "English",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Christian Bizer",
+          "duration_of_module": "1 semester",
+          "methods": "Perform scientific work independently under the guidance of a",
+          "media": "Scientific papers and books",
+          "literature": "Depends on the specific topic"
+        }
+      }
+    },
+    {
+      "id": "pdf-cs-720",
+      "title": "CS 720 Uncertainty Estimation",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "CS 720",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "CS 720",
+          "module_name": "Uncertainty Estimation",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,286"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Uncertainty Estimation",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "Bachelor degree, the fundamentals",
+          "language": "English or German",
+          "offering": "Irregular",
+          "person_in_charge": "Prof. Dr. Heiko Paulheim",
+          "duration_of_module": "1 semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books",
+          "literature": "Depends on the topic of the seminar"
+        }
+      }
+    },
+    {
+      "id": "pdf-ie-704",
+      "title": "IE 704 Seminar AI Systems Engineering",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "IE 704",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "IE 704",
+          "module_name": "Seminar AI Systems Engineering",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "230,294,450"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Seminar AI Systems Engineering",
+          "level": "Master",
+          "ects": "4",
+          "prerequisites": "None",
+          "language": "English",
+          "offering": "Irregular",
+          "person_in_charge": "Dr. Christian Bartelt",
+          "duration_of_module": "1 Semester",
+          "methods": "Do scientific work independently under the guidance of a professor",
+          "media": "Scientific papers and books; final presentation with PowerPoint",
+          "literature": "Depends on the topic of the seminar."
+        }
+      }
+    },
+    {
+      "id": "pdf-mas-515",
+      "title": "MAS 515 Seminar Mathematische Optimierung",
+      "ects": 4.0,
+      "area_id": "projects-and-seminars",
+      "code": "MAS 515",
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": "MAS 515",
+          "module_name": "Seminar Mathematische Optimierung",
+          "ects": 4,
+          "semester": [
+            "Irregular"
+          ],
+          "source_indices": "231,297"
+        },
+        "ects_raw": 4,
+        "offered_terms": [
+          "Irregular"
+        ],
+        "po2020": {
+          "title": "Fortgeschrittenenseminar Mathematische Optimierung",
+          "form_of_module": "Master Thesis",
+          "type_of_module": "Thesis",
+          "level": "Master",
+          "ects": "4"
+        }
+      }
+    },
+    {
+      "id": "his-anmeldung-seminare-master-fss-2026",
+      "title": "Anmeldung Seminare (Master)",
+      "ects": 0.0,
+      "area_id": "projects-and-seminars",
+      "code": null,
+      "semester": "FSS 2026",
+      "professor": "Dr. Sven Hertling, Prof. Dr. Christian Bizer, Prof. Dr. Colin Atkinson, Prof. Dr. Daniel Schuster, Prof. Dr. Frederik Armknecht, Prof. Dr. Guido Moerkotte, Prof. Dr. Heiko Paulheim, Prof. Dr. Heiner Stuckenschmidt, Prof. Dr.-Ing. Margret Keuper, Prof. Dr. Markus Strohmaier, Prof. Dr. Matthias Krause, Prof. Dr. Rainer Gemulla",
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {
+        "h_index": 59,
+        "citations": 29318,
+        "top_paper_title": "DBpedia: A Nucleus for a Web of Open Data",
+        "top_paper_citations": 4667,
+        "top_paper_year": 2007,
+        "top_paper_date": "2007-01-01",
+        "top_paper_venue": "Lecture notes in computer science"
+      },
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "Anmeldung Seminare (Master)",
+          "typ": "Anmeldung",
+          "semester": "FSS 2026",
+          "dozenten": "Dr. Sven Hertling, Prof. Dr. Christian Bizer, Prof. Dr. Colin Atkinson, Prof. Dr. Daniel Schuster, Prof. Dr. Frederik Armknecht, Prof. Dr. Guido Moerkotte, Prof. Dr. Heiko Paulheim, Prof. Dr. Heiner Stuckenschmidt, Prof. Dr.-Ing. Margret Keuper, Prof. Dr. Markus Strohmaier, Prof. Dr. Matthias Krause, Prof. Dr. Rainer Gemulla",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        }
+      }
+    },
+    {
+      "id": "his-introductory-session-for-master-of-science-in-business-informatics-mannheim-master-of-data-science-and-mannheim-master-of-social-data-science-fss-2026",
+      "title": "Introductory Session for Master of Science in Business Informatics, Mannheim Master of Data Science and Mannheim Master of Social Data Science",
+      "ects": 0.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": "FSS 2026",
+      "professor": null,
+      "chair": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik",
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "his",
+      "raw": {
+        "summary": {
+          "id": "",
+          "titel": "Introductory Session for Master of Science in Business Informatics, Mannheim Master of Data Science and Mannheim Master of Social Data Science",
+          "typ": "Sonderveranstaltung",
+          "semester": "FSS 2026",
+          "dozenten": "",
+          "organisation": "Fakultät für Wirtschaftsinformatik und Wirtschaftsmathematik"
+        },
+        "detail": {
+          "inhalt": "",
+          "literatur": "",
+          "bemerkung": ""
+        }
+      }
+    },
+    {
+      "id": "pdf-unwrapping-the-mind-knowledge-cognition-and-ai",
+      "title": "Unwrapping the mind: knowledge, cognition, and AI",
+      "ects": 5.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Unwrapping the mind: knowledge, cognition, and AI",
+          "ects": 5,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "3"
+        },
+        "ects_raw": 5,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-lecture-cross-sectional-data-analysis",
+      "title": "Lecture Cross Sectional Data Analysis",
+      "ects": 6.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Lecture Cross Sectional Data Analysis",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-tutorial-cross-sectional-data-analysis",
+      "title": "Tutorial Cross Sectional Data Analysis",
+      "ects": 3.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Tutorial Cross Sectional Data Analysis",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-lecture-advanced-quantitative-methods",
+      "title": "Lecture Advanced Quantitative Methods",
+      "ects": 6.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Lecture Advanced Quantitative Methods",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-tutorial-advanced-quantitative-methods",
+      "title": "Tutorial Advanced Quantitative Methods",
+      "ects": 2.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Tutorial Advanced Quantitative Methods",
+          "ects": 2,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 2,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-lecture-longitudinal-data-analysis",
+      "title": "Lecture Longitudinal Data Analysis",
+      "ects": 6.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Lecture Longitudinal Data Analysis",
+          "ects": 6,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-tutorial-longitudinal-data-analysis",
+      "title": "Tutorial Longitudinal Data Analysis",
+      "ects": 3.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Tutorial Longitudinal Data Analysis",
+          "ects": 3,
+          "semester": [
+            "FSS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "FSS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-lecture-research-design",
+      "title": "Lecture Research Design",
+      "ects": 6.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Lecture Research Design",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-tutorial-research-design",
+      "title": "Tutorial Research Design",
+      "ects": 3.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Tutorial Research Design",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-empirische-methoden-der-politikwissenschaft",
+      "title": "Empirische Methoden der Politikwissenschaft",
+      "ects": 6.0,
+      "area_id": "unassigned",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Empirische Methoden der Politikwissenschaft",
+          "ects": 6,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "127"
+        },
+        "ects_raw": 6,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-legal-and-ethical-aspects-of-privacy",
+      "title": "Legal and Ethical Aspects of Privacy",
+      "ects": 3.0,
+      "area_id": "responsible-data-science",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Legal and Ethical Aspects of Privacy",
+          "ects": 3,
+          "semester": [
+            "HWS"
+          ],
+          "source_indices": "208,217,448"
+        },
+        "ects_raw": 3,
+        "offered_terms": [
+          "HWS"
+        ]
+      }
+    },
+    {
+      "id": "pdf-master-thesis",
+      "title": "Master Thesis",
+      "ects": 30.0,
+      "area_id": "master-thesis",
+      "code": null,
+      "semester": null,
+      "professor": null,
+      "chair": null,
+      "metrics": {},
+      "research_areas": [],
+      "eligible": true,
+      "source": "pdf",
+      "raw": {
+        "baseline": {
+          "module_code": null,
+          "module_name": "Master Thesis",
+          "ects": 30,
+          "semester": [
+            "HWS",
+            "FSS"
+          ],
+          "source_indices": "298,301,451"
+        },
+        "ects_raw": 30,
+        "offered_terms": [
+          "HWS",
+          "FSS"
+        ]
+      }
+    }
+  ]
+}

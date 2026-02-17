@@ -34,7 +34,16 @@ def _load_json(filename: str) -> Union[Dict, List]:
 
 
 def _load_courses() -> List[Dict]:
-    """Load the course catalog."""
+    """Load the course catalog.
+    
+    Tries courses_full.json first (has professor/metrics data),
+    falls back to courses_parsed.json.
+    """
+    # Try full data first (includes professor, metrics)
+    data = _load_json("courses_full.json")
+    if isinstance(data, dict) and "courses" in data:
+        return data["courses"]
+    # Fallback to parsed data
     data = _load_json("courses_parsed.json")
     if isinstance(data, dict) and "courses" in data:
         return data["courses"]
@@ -156,6 +165,19 @@ def _serialize_course(course: dict, restricted_map: dict) -> dict:
         except (ValueError, TypeError):
             ects = 0
     
+    # Extract metrics if available
+    metrics = course.get("metrics") or {}
+    h_index = metrics.get("h_index", 0)
+    citations = metrics.get("citations", 0)
+    top_paper = None
+    if metrics.get("top_paper_title"):
+        top_paper = {
+            "title": metrics.get("top_paper_title", ""),
+            "citations": metrics.get("top_paper_citations", 0),
+            "year": metrics.get("top_paper_year"),
+            "venue": metrics.get("top_paper_venue", ""),
+        }
+    
     return {
         "id": course.get("id") or f"course-{code}".lower().replace(" ", "-"),
         "code": code,
@@ -172,6 +194,10 @@ def _serialize_course(course: dict, restricted_map: dict) -> dict:
         "restricted": is_restricted,
         "restricted_kind": restricted_info.get("kind", ""),
         "restricted_reason": restricted_info.get("reason", ""),
+        # Professor/research metrics
+        "h_index": h_index,
+        "citations": citations,
+        "top_paper": top_paper,
     }
 
 
