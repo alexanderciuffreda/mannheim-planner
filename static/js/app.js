@@ -18,6 +18,8 @@ const i18n = {
     // Header
     cloud_version: 'Cloud Version - Daten werden lokal im Browser gespeichert',
     export: 'Export',
+    lets_connect: 'Lass uns vernetzen',
+    connect_tooltip: 'Vernetze dich mit dem Entwickler (Alexander) auf LinkedIn',
     
     // KPI Cards
     ects_planned: 'ECTS geplant',
@@ -97,6 +99,8 @@ const i18n = {
     // Header
     cloud_version: 'Cloud Version - Data stored locally in browser',
     export: 'Export',
+    lets_connect: "Let's Connect",
+    connect_tooltip: 'Connect with the developer (Alexander) on LinkedIn',
     
     // KPI Cards
     ects_planned: 'ECTS Planned',
