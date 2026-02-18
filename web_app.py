@@ -351,7 +351,7 @@ def export_plan(format: str):
             "|---------|---------|--------------|--------|",
         ]
         for ap in area_progress_data:
-            status = "Erfuellt" if ap["fulfilled"] else "Offen"
+            status = "Erfüllt" if ap["fulfilled"] else "Offen"
             lines.append(f"| {ap['name']} | {ap['planned']:.0f} ECTS | {ap['required']:.0f} ECTS | {status} |")
         
         lines.extend(["", "---", "", "## Geplante Module", ""])

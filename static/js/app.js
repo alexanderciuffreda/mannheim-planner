@@ -29,7 +29,7 @@ const i18n = {
     filter: 'Filter',
     all_areas: 'Alle Bereiche',
     filter_active: 'Filter aktiv',
-    reset: 'Zuruecksetzen',
+    reset: 'Zurücksetzen',
     
     // Progress Section
     progress_by_area: 'Fortschritt nach Bereich',
@@ -49,13 +49,13 @@ const i18n = {
     
     // Catalog Section
     catalog: 'Katalog',
-    modules_available: 'Module verfuegbar',
+    modules_available: 'Module verfügbar',
     variable: 'Variabel',
-    ects_available: 'ECTS verfuegbar',
+    ects_available: 'ECTS verfügbar',
     of: 'von',
-    add: 'Hinzufuegen',
+    add: 'Hinzufügen',
     no_modules_found: 'Keine Module gefunden.',
-    reset_filter: 'Filter zuruecksetzen',
+    reset_filter: 'Filter zurücksetzen',
     
     // Export
     export_plan: 'Plan exportieren',
@@ -71,14 +71,14 @@ const i18n = {
     // Messages
     loading_catalog: 'Katalog wird geladen...',
     error_loading: 'Fehler beim Laden des Katalogs.',
-    error_saving: 'Fehler beim Speichern. Bitte LocalStorage-Limit pruefen.',
+    error_saving: 'Fehler beim Speichern. Bitte LocalStorage-Limit prüfen.',
     export_failed: 'Export fehlgeschlagen.',
-    invalid_file: 'Ungueltige Datei.',
+    invalid_file: 'Ungültige Datei.',
     import_error: 'Fehler beim Importieren',
     import_confirm: 'Module importieren? Aktuelle Planung wird ersetzt.',
     enter_ects: 'Bitte ECTS-Anzahl eingeben (mind. 1)',
-    enter_ects_ac: 'Bitte ECTS-Anzahl eingeben fuer Additional Course Module.',
-    max_ects_available: 'Maximal {n} ECTS verfuegbar',
+    enter_ects_ac: 'Bitte ECTS-Anzahl eingeben für Additional Course Module.',
+    max_ects_available: 'Maximal {n} ECTS verfügbar',
     
     // Footer
     footer_cloud: 'Mannheim DS Planner - Cloud Version',
