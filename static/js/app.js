@@ -87,6 +87,10 @@ const i18n = {
     // Metrics
     citations: 'Zitationen',
     k_citations: 'K Zitationen',
+    
+    // SEO Content
+    seo_title: 'Dein Guide für den Mannheim Master Data Science',
+    seo_text: 'Willkommen im inoffiziellen <strong>Mannheim Master Data Science (MMDS) Planner</strong>. Bist du neu im <strong>ersten Semester</strong>? Dieser Planer hilft dir, den Überblick über den komplexen <strong>Modulkatalog</strong> zu behalten. Finde passende <strong>Veranstaltungen</strong> aus den Bereichen <em>Fundamentals</em>, <em>Data Management</em> und <em>Data Analytics Methods</em>. Erstelle deinen persönlichen Studienplan, prüfe Voraussetzungen und behalte deinen Fortschritt im Blick. Ideal für alle, die sich über den Master informieren oder ihr Studium effizient organisieren möchten.',
   },
   
   en: {
@@ -162,6 +166,10 @@ const i18n = {
     // Metrics
     citations: 'citations',
     k_citations: 'K citations',
+    
+    // SEO Content
+    seo_title: 'Your Guide for the Mannheim Master Data Science',
+    seo_text: 'Welcome to the unofficial <strong>Mannheim Master Data Science (MMDS) Planner</strong>. Are you in your <strong>first semester</strong>? This planner helps you keep track of the complex <strong>course catalog</strong>. Find suitable <strong>courses</strong> in the areas of <em>Fundamentals</em>, <em>Data Management</em>, and <em>Data Analytics Methods</em>. Create your personal study plan, check prerequisites, and keep an eye on your progress. Ideal for anyone looking for information about the master\'s program or wanting to organize their studies efficiently.',
   }
 };
 
